@@ -1,0 +1,280 @@
+version: '3.3'
+
+services:  
+  naming-server:
+    build: ./naming-server
+    container_name: naming-server
+    environment:
+      - SERVER_PORT=8761
+    depends_on:
+      - config-server
+    networks:
+      - back-tier
+      - front-tier
+    ports:
+      - 8761:8761
+
+  config-server:
+    build: ./config-server
+    container_name: config-server
+    environment:
+      - SERVER_PORT=8888
+    networks:
+      - back-tier
+    expose:
+      - 8888
+      
+  gateway-server:
+    build: ./gateway-server
+    container_name: gateway-server
+    environment:
+      - SERVER_PORT=8765
+    networks:
+      - back-tier
+      - front-tier
+    depends_on:
+      - config-server
+      - naming-server
+    ports:
+      - 8765:8765
+
+  tracking-server:
+    build: ./tracking-server
+    container_name: tracking-server
+    environment:
+      - SERVER_PORT=9411
+    networks:
+      - back-tier
+      - front-tier
+    links:
+      - rabbitmq 
+    depends_on:
+      - naming-server
+    ports:
+      - 9411:9411
+
+  authorization-server:
+    build: ./authorization-server
+    container_name: authorization-server
+    environment:
+      - SERVER_PORT=9090
+    networks:
+      - back-tier
+    links:
+      - postgres
+      - rabbitmq
+    depends_on:
+      - config-server
+      - naming-server
+      - gateway-server
+    expose:
+      - 9090
+
+  account-service:
+    build: ./account-service
+    container_name: account-service
+    environment:
+      - SERVER_PORT=7000
+    networks:
+      - back-tier
+    links:
+      - postgres 
+      - rabbitmq 
+      - mailhog 
+    depends_on:
+      - config-server
+      - naming-server
+      - authorization-server
+      - gateway-server
+    expose:
+      - 7000
+
+  user-service:
+    build: ./user-service
+    container_name: user-service
+    environment:
+      - SERVER_PORT=7200
+    networks:
+      - back-tier
+    links:
+      - mysql 
+    depends_on:
+      - config-server
+      - naming-server
+      - gateway-server
+    expose:
+      - 7200
+
+  messaging-service:
+    build: ./messaging-service
+    container_name: messaging-service
+    environment:
+      - SERVER_PORT=7400
+    networks:
+      - back-tier
+    links:
+      - mongo 
+    depends_on:
+      - config-server
+      - naming-server
+      - gateway-server
+    expose:
+      - 7400
+
+  place-service:
+    build: ./place-service
+    container_name: place-service
+    environment:
+      - PORT=5000
+    networks:
+      - back-tier
+    links:
+      - mysql 
+    depends_on:
+      - config-server
+      - naming-server
+      - gateway-server
+    expose:
+      - 5000
+
+  vehicle-service:
+    build: ./vehicle-service
+    container_name: vehicle-service
+    environment:
+      - PORT=5200
+    networks:
+      - back-tier
+    links:
+      - mongo 
+    depends_on:
+      - config-server
+      - naming-server
+      - gateway-server
+    expose:
+      - 5200
+
+  warehouse-service:
+    build: ./warehouse-service
+    container_name: warehouse-service
+    environment:
+      - PORT=5400
+    networks:
+      - back-tier
+    links:
+      - mongo 
+    depends_on:
+      - config-server
+      - naming-server
+      - gateway-server
+    expose:
+      - 5400
+      
+  shipment-service:
+    build: ./shipment-service
+    container_name: shipment-service
+    environment:
+      - PORT=5600
+    networks:
+      - back-tier
+    links:
+      - mongo 
+    depends_on:
+      - config-server
+      - naming-server
+      - gateway-server
+    expose:
+      - 5600
+      
+  parcel-service:
+    build: ./parcel-service
+    container_name: parcel-service
+    environment:
+      - PORT=5800
+    networks:
+      - back-tier
+    links:
+      - postgres 
+    depends_on:
+      - config-server
+      - naming-server
+      - gateway-server
+    expose:
+      - 5800
+
+  postgres:
+    build: ./postgres-database
+    container_name: postgres
+    networks:
+      - back-tier
+    ports:
+      - 5432:5432
+    environment:
+      POSTGRES_USER: root
+      POSTGRES_PASSWORD: root
+
+  mysql:
+    build: ./mysql-database
+    container_name: mysql
+    networks:
+      - back-tier
+    ports:
+      - 3306:3306
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+
+  rabbitmq:
+    build: ./rabbitmq-message-queue
+    container_name: rabbitmq
+    networks:
+      - back-tier
+      - front-tier
+    expose:
+      - 5672
+    ports:
+      - 15672:15672
+
+  redis:
+    build: ./redis-database
+    container_name: redis
+    networks:
+      - back-tier
+    ports:
+      - 6379:6379
+
+  mongo:
+    build: ./mongo-database
+    container_name: mongo
+    networks:
+      - back-tier
+    ports:
+      - 27017:27017
+    environment:
+      MONGO_INITDB_ROOT_USERNAME: root
+      MONGO_INITDB_ROOT_PASSWORD: root
+
+  adminer:
+    image: adminer
+    container_name: adminer
+    networks:
+      - back-tier
+      - front-tier
+    depends_on:
+      - postgres
+      - mysql
+    ports:
+      - 8050:8080
+
+  mailhog:
+    image: mailhog/mailhog
+    container_name: mailhog
+    networks:
+      - back-tier
+      - front-tier
+    expose:
+      - 1025
+    ports:
+      - 8025:8025
+
+networks:
+  front-tier:
+  back-tier:
