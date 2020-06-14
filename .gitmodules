@@ -1,0 +1,60 @@
+[submodule "account-service"]
+	path = account-service
+	url = https://github.com/matebence/account-service
+[submodule "authorization-server"]
+	path = authorization-server
+	url = https://github.com/matebence/authorization-server
+[submodule "config-repo"]
+	path = config-repo
+	url = https://github.com/matebence/config-repo
+[submodule "config-server"]
+	path = config-server
+	url = https://github.com/matebence/config-server
+[submodule "gateway-server"]
+	path = gateway-server
+	url = https://github.com/matebence/gateway-server
+[submodule "messaging-service"]
+	path = messaging-service
+	url = https://github.com/matebence/messaging-service
+[submodule "mongo-database"]
+	path = mongo-database
+	url = https://github.com/matebence/mongo-database
+[submodule "mysql-database"]
+	path = mysql-database
+	url = https://github.com/matebence/mysql-database
+[submodule "naming-server"]
+	path = naming-server
+	url = https://github.com/matebence/naming-server
+[submodule "parcel-service"]
+	path = parcel-service
+	url = https://github.com/matebence/parcel-service
+[submodule "place-service"]
+	path = place-service
+	url = https://github.com/matebence/place-service
+[submodule "postgres-database"]
+	path = postgres-database
+	url = https://github.com/matebence/postgres-database
+[submodule "python-rabbitmq-password-generator"]
+	path = python-rabbitmq-password-generator
+	url = https://github.com/matebence/python-rabbitmq-password-generator
+[submodule "rabbitmq-message-queue"]
+	path = rabbitmq-message-queue
+	url = https://github.com/matebence/rabbitmq-message-queue
+[submodule "redis-database"]
+	path = redis-database
+	url = https://github.com/matebence/redis-database
+[submodule "shipment-service"]
+	path = shipment-service
+	url = https://github.com/matebence/shipment-service
+[submodule "tracking-server"]
+	path = tracking-server
+	url = https://github.com/matebence/tracking-server
+[submodule "user-service"]
+	path = user-service
+	url = https://github.com/matebence/user-service
+[submodule "vehicle-service"]
+	path = vehicle-service
+	url = https://github.com/matebence/vehicle-service
+[submodule "warehouse-service"]
+	path = warehouse-service
+	url = https://github.com/matebence/warehouse-service
