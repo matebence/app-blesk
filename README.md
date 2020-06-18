@@ -71,7 +71,7 @@ Tracking server for Blesk microservis application. Docs can be found [here](http
 - Spring Cloud Config server,
 - Load Balancing with Ribbon, Feign and resilient
 - Naming Server with Eureka
-- Fault Tolerance with Hystrix and opossum
+- Fault Tolerance with Hystrix
 - API Gateway with Zuul
 - Distributed Tracking with Zipkin
 - Request identification with Spring Cloud Sleuth
@@ -142,7 +142,11 @@ Tracking server for Blesk microservis application. Docs can be found [here](http
 |ROLE_ADMIN      |`admin`       				 |admin123         			   |
 |ROLE_MANAGER    |`jansiroky`					 |manager123				   |
 |ROLE_CLIENT     |`petervarga`				 	 |client123                    |
+|ROLE_CLIENT     |`lukastrnka`				 	 |client123                    |
 |ROLE_COURIER    |`michalvelky`				 	 |courier123                   |
+
+# system sever-key
+    eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJsb2dpbl9pZCI6MSwiYWNjb3VudF9pZCI6MSwidXNlcl9uYW1lIjoic3lzdGVtIiwic2NvcGUiOlsidHJ1c3QiXSwiYXV0aG9yaXRpZXMiOlsiUk9MRV9TWVNURU0iXSwianRpIjoiZWM3ZmE5ZGItZmY0MS00NmU4LWI4OTctMDI1YWE1YWFlMWQ2IiwiY2xpZW50X2lkIjoiOGRlNGRjNTYtNmU5Ni0xMWVhLWJjNTUtMDI0MmFjMTMwMDAzIiwiYWN0aXZhdGVkIjp0cnVlfQ.KzxBtlmKOliwE8tdbeBgXgWb3vlcRp4-x4vmVA-2wI4GfWtK1d-Ax4QQDImOqhnRNh81H9H0SxPYaurSo_RJUpt35iXUSmIp5rizGXAj3xge9tf5o1jeZcVmuipzoZzF46cdnakmjaOk3fwerX50p_egO62ew8DdUgcpNpz7cyZH7-0ebAziYNibaka0s5NwksEhrFmK1BAxu-8_couQI3R5E_veygCnA92i6gkO-4BQS342vnHgpI31QT5lm9BG_KM6ADqDFYwD_JCRCVeUzQymP2YL3jOlDsdJ_p5vzNjGDrJIfSwMPDL-sIGZ9QbyXL7ffgbIiga1XI3qJ6UcGA
 
 # naming-server
     username: app-blesk-naming-server
@@ -292,7 +296,7 @@ Tracking server for Blesk microservis application. Docs can be found [here](http
 - [tracking-server](https://hub.docker.com/)
 
 # Jenkins dashboard
-> 
+> ![Jenkins dashboard](https://github.com/matebence/app-blesk/blob/master/images/jenkins_dashboard.jpg)
 # Spring Eureka
 > 
 # Microservices network visualization(with Zipkin)
