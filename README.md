@@ -146,7 +146,17 @@ Tracking server for Blesk microservis application. Docs can be found [here](http
 |ROLE_COURIER    |`michalvelky`				 	 |courier123                   |
 
 # system server-key
-    eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJsb2dpbl9pZCI6MSwiYWNjb3VudF9pZCI6MSwidXNlcl9uYW1lIjoic3lzdGVtIiwic2NvcGUiOlsidHJ1c3QiXSwiYXV0aG9yaXRpZXMiOlsiUk9MRV9TWVNURU0iXSwianRpIjoiZWM3ZmE5ZGItZmY0MS00NmU4LWI4OTctMDI1YWE1YWFlMWQ2IiwiY2xpZW50X2lkIjoiOGRlNGRjNTYtNmU5Ni0xMWVhLWJjNTUtMDI0MmFjMTMwMDAzIiwiYWN0aXZhdGVkIjp0cnVlfQ.KzxBtlmKOliwE8tdbeBgXgWb3vlcRp4-x4vmVA-2wI4GfWtK1d-Ax4QQDImOqhnRNh81H9H0SxPYaurSo_RJUpt35iXUSmIp5rizGXAj3xge9tf5o1jeZcVmuipzoZzF46cdnakmjaOk3fwerX50p_egO62ew8DdUgcpNpz7cyZH7-0ebAziYNibaka0s5NwksEhrFmK1BAxu-8_couQI3R5E_veygCnA92i6gkO-4BQS342vnHgpI31QT5lm9BG_KM6ADqDFYwD_JCRCVeUzQymP2YL3jOlDsdJ_p5vzNjGDrJIfSwMPDL-sIGZ9QbyXL7ffgbIiga1XI3qJ6UcGA
+	eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJsb2dpbl9pZCI6MSwiYWNjb
+	3VudF9pZCI6MSwidXNlcl9uYW1lIjoic3lzdGVtIiwic2NvcGUiOlsidHJ1c3Q
+	iXSwiYXV0aG9yaXRpZXMiOlsiUk9MRV9TWVNURU0iXSwianRpIjoiZWM3ZmE5Z
+	GItZmY0MS00NmU4LWI4OTctMDI1YWE1YWFlMWQ2IiwiY2xpZW50X2lkIjoiOGR
+	lNGRjNTYtNmU5Ni0xMWVhLWJjNTUtMDI0MmFjMTMwMDAzIiwiYWN0aXZhdGVkI
+	jp0cnVlfQ.KzxBtlmKOliwE8tdbeBgXgWb3vlcRp4-x4vmVA-2wI4GfWtK1d-A
+	x4QQDImOqhnRNh81H9H0SxPYaurSo_RJUpt35iXUSmIp5rizGXAj3xge9tf5o1
+	jeZcVmuipzoZzF46cdnakmjaOk3fwerX50p_egO62ew8DdUgcpNpz7cyZH7-0e
+	bAziYNibaka0s5NwksEhrFmK1BAxu-8_couQI3R5E_veygCnA92i6gkO-4BQS3
+	42vnHgpI31QT5lm9BG_KM6ADqDFYwD_JCRCVeUzQymP2YL3jOlDsdJ_p5vzNjG
+	DrJIfSwMPDL-sIGZ9QbyXL7ffgbIiga1XI3qJ6UcGA
 
 # naming-server
     username: app-blesk-naming-server
@@ -163,8 +173,8 @@ Tracking server for Blesk microservis application. Docs can be found [here](http
 # JWT
     username: 8de4dc56-6e96-11ea-bc55-0242ac130003
     password: 04ed73c86f2d48e9789fa2d2bae6acf78bcd9b431d676e5f6d9c9c9a28de29a3
->## JSON Web token .pem
 
+## JSON Web token .pem
 >openssl genrsa -out jwt.pem 2048
 
 	-----BEGIN RSA PRIVATE KEY-----
@@ -195,7 +205,7 @@ Tracking server for Blesk microservis application. Docs can be found [here](http
 	LK0ojxkkvsvpYP4iLhqHzj10k4TbK9mz582SmoN07ekT1vtqr2Em
 	-----END RSA PRIVATE KEY-----
 
->## JSON Web token private key from .pem
+## JSON Web token private key from .pem
 
 > openssl rsa -in jwt.pem 
 
@@ -227,7 +237,7 @@ Tracking server for Blesk microservis application. Docs can be found [here](http
 	LK0ojxkkvsvpYP4iLhqHzj10k4TbK9mz582SmoN07ekT1vtqr2Em
 	-----END RSA PRIVATE KEY-----
 
->## JSON Web token public key from .pem
+## JSON Web token public key from .pem
 
 > openssl rsa -in jwt.pem -pubout
 
@@ -241,65 +251,66 @@ Tracking server for Blesk microservis application. Docs can be found [here](http
 	BQIDAQAB
 	-----END PUBLIC KEY-----
 
->## Example of JWT token
+## Example of JWT token
 
 > It can be tested here [https://jwt.io/](https://jwt.io/)
 
 	eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJsb2dpbl9pZ
-	CI6MSwicHJpdmlsZWdlcyI6WyJWSUVXX0FMTF9QUkVGRVJFTkN
-	FUyIsIlZJRVdfQUxMX0FDQ09VTlRTIiwiVklFV19BQ0NPVU5UU
-	yIsIkRFTEVURV9ST0xFUyIsIkRFTEVURV9QUklWSUxFR0VTIiw
-	iVVBEQVRFX1BSRUZFUkVOQ0VTIiwiREVMRVRFX1BSRUZFUkVOQ
-	0VTIiwiVVBEQVRFX1BSSVZJTEVHRVMiLCJVUERBVEVfQUNDT1V
-	OVFMiLCJERUxFVEVfQUNDT1VOVFMiLCJDUkVBVEVfUFJFRkVSR
-	U5DRVMiLCJDUkVBVEVfUFJJVklMRUdFUyIsIlZJRVdfUk9MRVM
-	iLCJDUkVBVEVfUk9MRVMiLCJWSUVXX0FMTF9ST0xFUyIsIlZJR
-	VdfUFJJVklMRUdFUyIsIlZJRVdfUFJFRkVSRU5DRVMiLCJVUER
-	BVEVfUk9MRVMiLCJWSUVXX0FMTF9QUklWSUxFR0VTIiwiQ1JFQ
-	VRFX0FDQ09VTlRTIl0sImFjY291bnRfaWQiOjEsInVzZXJfbmF
-	tZSI6InN5c3RlbSIsInNjb3BlIjpbInRydXN0Il0sImV4cCI6M
-	TU4NzczMjY0MiwiYXV0aG9yaXRpZXMiOlsiUk9MRV9TWVNURU0
-	iXSwianRpIjoiNDQyODI4OTYtMzI0Ni00Y2RlLWE5MmItY2E3N
-	TY4ZjZjODgxIiwiY2xpZW50X2lkIjoiOGRlNGRjNTYtNmU5Ni0
-	xMWVhLWJjNTUtMDI0MmFjMTMwMDAzIiwiYWN0aXZhdGVkIjp0c
-	nVlfQ.JG3C07gl1DZmFzC90E71fyjDQx0aSt5sc0X8bxF1IpK3
-	Sg24kbXrYc_n8g9Eyug86NQygDIGO8GG2hrtOjuw1bKxkJKYcH
-	qnU-ctMyi-PMILeNTlxaA3Jn88FlCMfwo1F1k8l--SK1f3bIuz
-	VrOqkVF7nGFqB97AzIx1nuwoIbBksN0S9qkmGoxqdCiRz-Txo4
-	-qwx7uN1d--iU9A6XZGEBvrk5tYhtS3w918DBXUi6JCOxKlV0c
-	roKrj7GSXgmPUbEHyZpWi8QHwlT2MqyiTxdeULKOh0I41ce9cc
-	Wf_v54F9dwP8vZqNKtUoA5FPOPqBKAOvjX_-7fqERmb0UjPw
+	CI6MywiYWNjb3VudF9pZCI6MywidXNlcl9uYW1lIjoicGV0ZXJ
+	2YXJnYSIsInNjb3BlIjpbInRydXN0Il0sImV4cCI6MTU5MjU3N
+	zIyMywiYXV0aG9yaXRpZXMiOlsiUk9MRV9DTElFTlQiXSwianR
+	pIjoiZDE1YTlkZWYtZDYwZS00ZjU3LWEwOTgtMjVlMGMwOWY4N
+	DQ2IiwiY2xpZW50X2lkIjoiOGRlNGRjNTYtNmU5Ni0xMWVhLWJ
+	jNTUtMDI0MmFjMTMwMDAzIiwiYWN0aXZhdGVkIjp0cnVlfQ.Ms
+	dBA0y0J7S4hSbV3qyVrxmqnzYq-BBp4k1QqHmyjyRNpBvTEUz-
+	xWFmfauCwNA4SzqEQYnDyUcQcka58PVVLXMaTaZ5xHAaUbqBJI
+	LfynYa7GOBrG58w0fgCFgoyQXbCXyAOTKffyl7qEeV8zbDVdUC
+	k0IguJzgdbVBDYgEfjqyhiGOnkPllLxgWSgfbEO9elbzdoFWHP
+	OW1gRH2Qzm_2zGpuiZ9Abvsr9B5h8LWHuj3Yi1iwd13SgU-5zB
+	7W14bTIoaJ-xfdwcC3-8XopmOwPzD5XMfH2RPBR2aBUs5EuHZo
+	kGvqRsZfwSGM0IZlU-amK_G6rOfnGhTRSCCLXihw
 
->## All other API key and configurations are listed here
+## All other API key and configurations are listed here
 - **Stripe** API - payment
 - **Firebase** API - push notifications
 - **HERE** API - maps
 > [All API keys are listed HERE](https://drive.google.com/file/d/11cycT6jk5CE-6RIjQULGIbjm_MgmUp7w/view?usp=sharing)
 
->## Server configurations
+## Server configurations
 
 > All other configurations are listed here [Spring Cloud Config Server - config repo](https://github.com/matebence/config-repo) or in [Docker compose .yml file](https://github.com/matebence/app-blesk/blob/master/docker-compose.yml)
 
->## Ready to use docker images can be found here:
-- [vehicle-service](https://hub.docker.com/)
-- [warehouse-service](https://hub.docker.com/)
-- [shipment-service](https://hub.docker.com/)
-- [parcel-service](https://hub.docker.com/)
-- [place-service](https://hub.docker.com/)
-- [account-service](https://hub.docker.com/)
-- [user-service](https://hub.docker.com/)
-- [messaging-service](https://hub.docker.com/)
-- [authorization-server](https://hub.docker.com/)
-- [config-server](https://hub.docker.com/)
-- [gateway-server](https://hub.docker.com/)
-- [naming-server](https://hub.docker.com/)
-- [tracking-server](https://hub.docker.com/)
+## Postman scripts:
+- [vehicle-service](https://drive.google.com/file/d/1TWbRTDk5WWb5AwOJWL_TrQ3yh-iehq6j/view?usp=sharing)
+- [warehouse-service](https://drive.google.com/file/d/1hfsMgcx7P9PvAjFcw4KBwk1_UKRLxPkK/view?usp=sharing)
+- [shipment-service](https://drive.google.com/file/d/1IuRICxp6ACn6Cac7Ie2zTZbCjVGkDhzr/view?usp=sharing)
+- [parcel-service](https://drive.google.com/file/d/1Hgb2mMym3HH0gD_eamt8O24Tx_QE2IDm/view?usp=sharing)
+- [place-service](https://drive.google.com/file/d/1GqUJ8xM1xANx5jC_hFG2NOL80YdDaliC/view?usp=sharing)
+- [account-service](https://drive.google.com/file/d/1eoKSg40w2x5tzYUX_ORQqe7vP73zCoeg/view?usp=sharing)
+- [user-service](https://drive.google.com/file/d/199a4_r-wRO8GVBEWMdL49_RaVMYOcT-G/view?usp=sharing)
+- [messaging-service](https://drive.google.com/file/d/16Mo-6GHVP-7epnbJnx41eJXSixid-z__/view?usp=sharing)
+- [authorization-server](https://drive.google.com/file/d/1Y6eciLNmqpkepFgUXM5LroJ_Il7qGI-4/view?usp=sharing)
+
+## Ready to use docker images can be found here:
+- [vehicle-service](https://hub.docker.com/r/matebence/vehicle-service)
+- [warehouse-service](https://hub.docker.com/r/matebence/warehouse-service)
+- [shipment-service](https://hub.docker.com/r/matebence/shipment-service)
+- [parcel-service](https://hub.docker.com/r/matebence/parcel-service)
+- [place-service](https://hub.docker.com/r/matebence/place-service)
+- [account-service](https://hub.docker.com/r/matebence/account-service)
+- [user-service](https://hub.docker.com/r/matebence/user-service)
+- [messaging-service](https://hub.docker.com/r/matebence/messaging-service)
+- [authorization-server](https://hub.docker.com/r/matebence/authorization-server)
+- [config-server](https://hub.docker.com/r/matebence/config-server)
+- [gateway-server](https://hub.docker.com/r/matebence/gateway-server)
+- [naming-server](https://hub.docker.com/r/matebence/naming-server)
+- [tracking-server](https://hub.docker.com/r/matebence/tracking-server)
 
 # Jenkins dashboard
 > ![Jenkins dashboard](https://github.com/matebence/app-blesk/blob/develop/images/jenkins_dashboard.jpg)
 # Spring Eureka
-> 
+> ![Eureka dashboard](https://github.com/matebence/app-blesk/blob/develop/images/eureka_dashboard.jpg)
 # Microservices network visualization(with Zipkin)
-> 
+> ![Zipkin dashboard](https://github.com/matebence/app-blesk/blob/develop/images/zipkin_dashboard.jpg)
 # Application UI screenshoots
 >
