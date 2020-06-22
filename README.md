@@ -75,14 +75,14 @@ Tracking server for Blesk microservis application. Docs can be found [here](http
 - API Gateway with Zuul
 - Distributed Tracking with Zipkin
 - Request identification with Spring Cloud Sleuth
-- RabbitMQ - service to service communication
-- Websocket - real time communication
-- Databases: MySQL, PostgreSQL, MongoDB, Redis
-- Frontend: React, Vue, Angular
-- Backend: NodeJs, Java Spring
-- CI: Travis, Jenkins
+- CI - Travis, Jenkins
 - Docker, Docker-compose
 - Postman for API testing
+- RabbitMQ - service to service communication
+- Websocket - real time communication
+- Databases - MySQL, PostgreSQL, MongoDB, Redis
+- Frontend - React, Vue, Angular
+- Backend - NodeJs, Java Spring
 
 # Network
 |Services   			|Subnet - Gateway  	          |Front-tier(IPv4Address) |Back-tier(IPv4Address)|
@@ -280,7 +280,7 @@ Tracking server for Blesk microservis application. Docs can be found [here](http
 
 > All other configurations are listed here [Spring Cloud Config Server - config repo](https://github.com/matebence/config-repo) or in [Docker compose .yml file](https://github.com/matebence/app-blesk/blob/master/docker-compose.yml)
 
-## Postman scripts:
+## Postman scripts
 - [vehicle-service](https://drive.google.com/file/d/1TWbRTDk5WWb5AwOJWL_TrQ3yh-iehq6j/view?usp=sharing)
 - [warehouse-service](https://drive.google.com/file/d/1hfsMgcx7P9PvAjFcw4KBwk1_UKRLxPkK/view?usp=sharing)
 - [shipment-service](https://drive.google.com/file/d/1IuRICxp6ACn6Cac7Ie2zTZbCjVGkDhzr/view?usp=sharing)
@@ -291,7 +291,7 @@ Tracking server for Blesk microservis application. Docs can be found [here](http
 - [messaging-service](https://drive.google.com/file/d/16Mo-6GHVP-7epnbJnx41eJXSixid-z__/view?usp=sharing)
 - [authorization-server](https://drive.google.com/file/d/1Y6eciLNmqpkepFgUXM5LroJ_Il7qGI-4/view?usp=sharing)
 
-## Ready to use docker images can be found here:
+## Ready to use docker images can be found here
 - [vehicle-service](https://hub.docker.com/r/matebence/vehicle-service)
 - [warehouse-service](https://hub.docker.com/r/matebence/warehouse-service)
 - [shipment-service](https://hub.docker.com/r/matebence/shipment-service)
@@ -305,6 +305,13 @@ Tracking server for Blesk microservis application. Docs can be found [here](http
 - [gateway-server](https://hub.docker.com/r/matebence/gateway-server)
 - [naming-server](https://hub.docker.com/r/matebence/naming-server)
 - [tracking-server](https://hub.docker.com/r/matebence/tracking-server)
+
+- [mongo-database](https://hub.docker.com/r/matebence/mongo-database)
+- [redis-database](https://hub.docker.com/r/matebence/redis-database)
+- [mysql-database](https://hub.docker.com/r/matebence/mysql-database)
+- [postgres-database](https://hub.docker.com/r/matebence/postgres-database)
+- [rabbit-mq](https://hub.docker.com/r/matebence/rabbit-mq)
+
 
 # Jenkins dashboard
 > ![Jenkins dashboard](https://github.com/matebence/app-blesk/blob/develop/images/jenkins_dashboard.jpg)
