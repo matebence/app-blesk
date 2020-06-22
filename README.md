@@ -305,7 +305,6 @@ Tracking server for Blesk microservis application. Docs can be found [here](http
 - [gateway-server](https://hub.docker.com/r/matebence/gateway-server)
 - [naming-server](https://hub.docker.com/r/matebence/naming-server)
 - [tracking-server](https://hub.docker.com/r/matebence/tracking-server)
-
 - [mongo-database](https://hub.docker.com/r/matebence/mongo-database)
 - [redis-database](https://hub.docker.com/r/matebence/redis-database)
 - [mysql-database](https://hub.docker.com/r/matebence/mysql-database)
