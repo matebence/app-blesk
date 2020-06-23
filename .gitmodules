@@ -58,3 +58,15 @@
 [submodule "warehouse-service"]
 	path = warehouse-service
 	url = https://github.com/matebence/warehouse-service
+[submodule "pwa-react"]
+	path = pwa-react
+	url = https://github.com/matebence/pwa-react
+[submodule "web-vue"]
+	path = web-vue
+	url = https://github.com/matebence/web-vue
+[submodule "landing-bootstrap"]
+	path = landing-bootstrap
+	url = https://github.com/matebence/landing-bootstrap
+[submodule "admin-angular"]
+	path = admin-angular
+	url = https://github.com/matebence/admin-angular
