@@ -64,7 +64,7 @@ Naming server for Blesk microservis application. Docs can be found [here](https:
 ## tracking-server
 
 Tracking server for Blesk microservis application. Docs can be found [here](https://zipkin.io/pages/quickstart.html).<br/>
-[![Build Status](https://travis-ci.org/matebence/warehouse-service.svg?branch=develop)](https://travis-ci.org/matebence/warehouse-service) [![GitHub issues](https://img.shields.io/github/issues/matebence/tracking-server)](https://github.com/matebence/tracking-server/issues) [![GitHub forks](https://img.shields.io/github/forks/matebence/tracking-server)](https://github.com/matebence/tracking-server/network) [![GitHub stars](https://img.shields.io/github/stars/matebence/tracking-server)](https://github.com/matebence/tracking-server/stargazers)
+[![Build Status](https://travis-ci.org/openzipkin/zipkin.svg?branch=master)](https://travis-ci.org/openzipkin/zipkin) [![GitHub issues](https://img.shields.io/github/issues/matebence/tracking-server)](https://github.com/matebence/tracking-server/issues) [![GitHub forks](https://img.shields.io/github/forks/matebence/tracking-server)](https://github.com/matebence/tracking-server/network) [![GitHub stars](https://img.shields.io/github/stars/matebence/tracking-server)](https://github.com/matebence/tracking-server/stargazers)
 
 # Used technologies
 
