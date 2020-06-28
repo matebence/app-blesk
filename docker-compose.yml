@@ -61,6 +61,18 @@ services:
     ports:
       - 8765:8765
 
+  landing-bootstrap:
+    build: ./landing-bootstrap
+    container_name: landing-bootstrap
+    environment:
+      - PORT=4100
+    networks:
+      - front-tier
+    depends_on:
+      - config-server
+    expose:
+      - 4100
+
   messaging-service:
     build: ./messaging-service
     container_name: messaging-service

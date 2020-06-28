@@ -87,10 +87,10 @@ Tracking server for Blesk microservis application. Docs can be found [here](http
 # Network
 |Services   			|Subnet - Gateway  	          |Front-tier(IPv4Address) |Back-tier(IPv4Address)|
 |-----------------------|-----------------------------|------------------------|----------------------|
-|`landing-bootstrap`	|172.31.0.0/16 - 192.168.0.1  |192.168.0.7/20		   |172.31.0.21/16   	  |
-|`pwa-react`			|172.31.0.0/16 - 192.168.0.1  |192.168.0.8/20		   |172.31.0.22/16   	  |
-|`web-vue`				|172.31.0.0/16 - 192.168.0.1  |192.168.0.9/20		   |172.31.0.23/16   	  |
-|`admin-angular`		|172.31.0.0/16 - 192.168.0.1  |192.168.0.10/20		   |172.31.0.24/16   	  |
+|`landing-bootstrap`	|192.168.0.0/20 - 192.168.0.1 |192.168.0.7/20		   |000.000.0.0/00    	  |
+|`pwa-react`			|172.31.0.0/16 - 192.168.0.1  |192.168.0.8/20		   |172.31.0.21/16   	  |
+|`web-vue`				|172.31.0.0/16 - 192.168.0.1  |192.168.0.9/20		   |172.31.0.22/16   	  |
+|`admin-angular`		|172.31.0.0/16 - 192.168.0.1  |192.168.0.10/20		   |172.31.0.23/16   	  |
 |`vehicle-service`		|172.31.0.0/16 - 172.31.0.1   |000.000.0.0/00		   |172.31.0.19/16   	  |
 |`warehouse-service`	|172.31.0.0/16 - 172.31.0.1   |000.000.0.0/00		   |172.31.0.18/16   	  |
 |`shipment-service` 	|172.31.0.0/16 - 172.31.0.1   |000.000.0.0/00		   |172.31.0.17/16   	  |
@@ -291,7 +291,7 @@ Tracking server for Blesk microservis application. Docs can be found [here](http
 ## Postman scripts
 - [vehicle-service](https://drive.google.com/file/d/1TWbRTDk5WWb5AwOJWL_TrQ3yh-iehq6j/view?usp=sharing)
 - [warehouse-service](https://drive.google.com/file/d/1hfsMgcx7P9PvAjFcw4KBwk1_UKRLxPkK/view?usp=sharing)
-- [shipment-service](https://drive.google.com/file/d/1IuRICxp6ACn6Cac7Ie2zTZbCjVGkDhzr/view?usp=sharing)
+- [shipment-service](https://drive.google.com/file/d/114mYLfHAa6qZBUmctozcVvlWk5-az35K/view?usp=sharing)
 - [parcel-service](https://drive.google.com/file/d/1Hgb2mMym3HH0gD_eamt8O24Tx_QE2IDm/view?usp=sharing)
 - [place-service](https://drive.google.com/file/d/1GqUJ8xM1xANx5jC_hFG2NOL80YdDaliC/view?usp=sharing)
 - [account-service](https://drive.google.com/file/d/1eoKSg40w2x5tzYUX_ORQqe7vP73zCoeg/view?usp=sharing)
@@ -319,7 +319,6 @@ Tracking server for Blesk microservis application. Docs can be found [here](http
 - [postgres-database](https://hub.docker.com/r/matebence/postgres-database)
 - [rabbit-mq](https://hub.docker.com/r/matebence/rabbit-mq)
 
-
 # Jenkins dashboard
 > ![Jenkins dashboard](https://github.com/matebence/app-blesk/blob/master/images/jenkins_dashboard.jpg)
 # Spring Eureka
@@ -327,4 +326,4 @@ Tracking server for Blesk microservis application. Docs can be found [here](http
 # Microservices network visualization(with Zipkin)
 > ![Zipkin dashboard](https://github.com/matebence/app-blesk/blob/master/images/zipkin_dashboard.jpg)
 # Application UI screenshoots
->
+> ![Landing bootstrap](https://github.com/matebence/app-blesk/blob/master/images/landing-bootstrap.gif)
