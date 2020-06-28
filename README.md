@@ -291,7 +291,7 @@ Tracking server for Blesk microservis application. Docs can be found [here](http
 ## Postman scripts
 - [vehicle-service](https://drive.google.com/file/d/1TWbRTDk5WWb5AwOJWL_TrQ3yh-iehq6j/view?usp=sharing)
 - [warehouse-service](https://drive.google.com/file/d/1hfsMgcx7P9PvAjFcw4KBwk1_UKRLxPkK/view?usp=sharing)
-- [shipment-service](https://drive.google.com/file/d/1IuRICxp6ACn6Cac7Ie2zTZbCjVGkDhzr/view?usp=sharing)
+- [shipment-service](https://drive.google.com/file/d/114mYLfHAa6qZBUmctozcVvlWk5-az35K/view?usp=sharing)
 - [parcel-service](https://drive.google.com/file/d/1Hgb2mMym3HH0gD_eamt8O24Tx_QE2IDm/view?usp=sharing)
 - [place-service](https://drive.google.com/file/d/1GqUJ8xM1xANx5jC_hFG2NOL80YdDaliC/view?usp=sharing)
 - [account-service](https://drive.google.com/file/d/1eoKSg40w2x5tzYUX_ORQqe7vP73zCoeg/view?usp=sharing)
