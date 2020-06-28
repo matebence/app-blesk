@@ -67,11 +67,12 @@ services:
     environment:
       - PORT=4100
     networks:
+      - back-tier
       - front-tier
     depends_on:
       - config-server
-    expose:
-      - 4100
+    ports:
+      - 4100:4100
 
   messaging-service:
     build: ./messaging-service
