@@ -87,6 +87,10 @@ Tracking server for Blesk microservis application. Docs can be found [here](http
 # Network
 |Services   			|Subnet - Gateway  	          |Front-tier(IPv4Address) |Back-tier(IPv4Address)|
 |-----------------------|-----------------------------|------------------------|----------------------|
+|`landing-bootstrap`	|172.31.0.0/16 - 192.168.0.1  |192.168.0.7/20		   |172.31.0.21/16   	  |
+|`pwa-react`			|172.31.0.0/16 - 192.168.0.1  |192.168.0.8/20		   |172.31.0.22/16   	  |
+|`web-vue`				|172.31.0.0/16 - 192.168.0.1  |192.168.0.9/20		   |172.31.0.23/16   	  |
+|`admin-angular`		|172.31.0.0/16 - 192.168.0.1  |192.168.0.10/20		   |172.31.0.24/16   	  |
 |`vehicle-service`		|172.31.0.0/16 - 172.31.0.1   |000.000.0.0/00		   |172.31.0.19/16   	  |
 |`warehouse-service`	|172.31.0.0/16 - 172.31.0.1   |000.000.0.0/00		   |172.31.0.18/16   	  |
 |`shipment-service` 	|172.31.0.0/16 - 172.31.0.1   |000.000.0.0/00		   |172.31.0.17/16   	  |
@@ -97,9 +101,9 @@ Tracking server for Blesk microservis application. Docs can be found [here](http
 |`messaging-service`	|172.31.0.0/16 - 172.31.0.1   |000.000.0.0/00		   |172.31.0.14/16   	  |
 |`authorization-server` |172.31.0.0/16 - 172.31.0.1   |000.000.0.0/00          |172.31.0.9/16         |
 |`config-server`   		|172.31.0.0/16 - 172.31.0.1   |000.000.0.0/00          |172.31.0.3/16         |
-|`gateway-server`   	|192.168.0.0/20 - 192.168.0.1 |192.168.0.6/20 	       |172.31.0.8/16         |
-|`naming-server`   		|172.31.0.0/16 - 172.31.0.1   |192.168.0.7/20  		   |000.000.0.0/00        |
-|`tracking-server`   	|192.168.0.0/20 - 192.168.0.1 |192.168.0.5/20 	       |172.31.0.12/16        |
+|`gateway-server`   	|172.31.0.0/16 - 172.31.0.1   |000.000.0.0/00  	       |172.31.0.8/16         |
+|`naming-server`   		|172.31.0.0/16 - 192.168.0.1  |192.168.0.6/20  		   |172.31.0.20/16        |
+|`tracking-server`   	|172.31.0.0/16 - 192.168.0.1  |192.168.0.5/20 	       |172.31.0.12/16        |
 |`postgres-database`   	|172.31.0.0/16 - 172.31.0.1   |000.000.0.0/00          |172.31.0.2/16         |
 |`mysql-database`   	|172.31.0.0/16 - 172.31.0.1   |000.000.0.0/00          |172.31.0.6/16         |
 |`redis-database`   	|172.31.0.0/16 - 172.31.0.1   |000.000.0.0/00          |172.31.0.4/16         |
@@ -112,8 +116,12 @@ Tracking server for Blesk microservis application. Docs can be found [here](http
 # Ports
 |                |Service name                   |Port                         |Programing language          |Database          	|
 |----------------|-------------------------------|-----------------------------|-----------------------------|----------------------|
-|Service         |`place-service`                |5000 - 5100         		   |JavaScript	         		 |MySQL, Redis     	    |
-|Service         |`vehicle-service`              |5200 - 5300         		   |JavaScript	         		 |Mongo, Redis    	    |
+|App	         |`landing-bootstrap`            |4100		         		   |JavaScript	         		 |-			     	    |
+|App      		 |`pwa-react`		             |4200         				   |JavaScript	         		 |-     			    |
+|App             |`web-vue`      		         |4300      		   		   |JavaScript	         		 |-     	    		|
+|App  	         |`admin-angular`                |4400		         		   |JavaScript	         		 |-     	    		|
+|Service         |`place-service`                |5000 - 5100         		   |JavaScript	         		 |-     	    		|
+|Service         |`vehicle-service`              |5200 - 5300         		   |JavaScript	         		 |-   	    			|
 |Service         |`warehouse-service`            |5400 - 5500         		   |JavaScript	         		 |Mongo   	     	    |
 |Service         |`shipment-service`             |5600 - 5700         		   |JavaScript	         		 |Mongo, Redis     	    |
 |Service         |`parcel-service`               |5800 - 5900         		   |JavaScript	         		 |PostgreSQL, Redis	    |
