@@ -64,7 +64,7 @@ Naming server for Blesk microservis application. Docs can be found [here](https:
 ## tracking-server
 
 Tracking server for Blesk microservis application. Docs can be found [here](https://zipkin.io/pages/quickstart.html).<br/>
-[![Build Status](https://travis-ci.org/openzipkin/zipkin.svg?branch=master)](https://travis-ci.org/openzipkin/zipkin) [![GitHub issues](https://img.shields.io/github/issues/matebence/tracking-server)](https://github.com/matebence/tracking-server/issues) [![GitHub forks](https://img.shields.io/github/forks/matebence/tracking-server)](https://github.com/matebence/tracking-server/network) [![GitHub stars](https://img.shields.io/github/stars/matebence/tracking-server)](https://github.com/matebence/tracking-server/stargazers)
+[![Build Status](https://travis-ci.org/openzipkin/zipkin.svg?branch=develop)](https://travis-ci.org/openzipkin/zipkin) [![GitHub issues](https://img.shields.io/github/issues/matebence/tracking-server)](https://github.com/matebence/tracking-server/issues) [![GitHub forks](https://img.shields.io/github/forks/matebence/tracking-server)](https://github.com/matebence/tracking-server/network) [![GitHub stars](https://img.shields.io/github/stars/matebence/tracking-server)](https://github.com/matebence/tracking-server/stargazers)
 
 # Used technologies
 
@@ -87,10 +87,10 @@ Tracking server for Blesk microservis application. Docs can be found [here](http
 # Network
 |Services   			|Subnet - Gateway  	          |Front-tier(IPv4Address) |Back-tier(IPv4Address)|
 |-----------------------|-----------------------------|------------------------|----------------------|
-|`landing-bootstrap`	|192.168.0.0/20 - 192.168.0.1 |192.168.0.7/20		   |000.000.0.0/00    	  |
-|`pwa-react`			|172.31.0.0/16 - 192.168.0.1  |192.168.0.8/20		   |172.31.0.21/16   	  |
-|`web-vue`				|172.31.0.0/16 - 192.168.0.1  |192.168.0.9/20		   |172.31.0.22/16   	  |
-|`admin-angular`		|172.31.0.0/16 - 192.168.0.1  |192.168.0.10/20		   |172.31.0.23/16   	  |
+|`landing-bootstrap`	|172.31.0.0/16 - 192.168.0.1  |192.168.0.7/20		   |000.000.0.0/00    	  |
+|`pwa-react`			|172.31.0.0/16 - 192.168.0.1  |192.168.0.8/20		   |172.31.0.22/16   	  |
+|`web-vue`				|172.31.0.0/16 - 192.168.0.1  |192.168.0.9/20		   |172.31.0.23/16   	  |
+|`admin-angular`		|172.31.0.0/16 - 192.168.0.1  |192.168.0.10/20		   |172.31.0.24/16   	  |
 |`vehicle-service`		|172.31.0.0/16 - 172.31.0.1   |000.000.0.0/00		   |172.31.0.19/16   	  |
 |`warehouse-service`	|172.31.0.0/16 - 172.31.0.1   |000.000.0.0/00		   |172.31.0.18/16   	  |
 |`shipment-service` 	|172.31.0.0/16 - 172.31.0.1   |000.000.0.0/00		   |172.31.0.17/16   	  |
@@ -128,11 +128,11 @@ Tracking server for Blesk microservis application. Docs can be found [here](http
 |Service         |`account-service`              |7000 - 7100         		   |Java		         		 |PostgreSQL, RabbitMQ	|
 |Service         |`user-service`         	     |7200 - 7300         		   |Java		         		 |MySQL, Redis     	    |
 |Service         |`messaging-service`         	 |7400 - 7500         		   |Java		         		 |Mongo	         	    |
-|Service         |`authorization-server`         |9090          			   |Java		         		 |RabbitMQ	         	|
-|Service         |`config-server`				 |8888						   |Java		         		 |GitHub       	        |
-|Service         |`gateway-server`				 |8765                         |Java		         		 |-	         	        |
-|Service         |`naming-server`				 |8761                         |Java		         		 |-	         	        |
-|Service         |`tracking-server`				 |9411                         |Java		         		 |RabbitMQ     	        |
+|Server          |`authorization-server`         |9090          			   |Java		         		 |RabbitMQ	         	|
+|Server          |`config-server`				 |8888						   |Java		         		 |GitHub       	        |
+|Server          |`gateway-server`				 |8765                         |Java		         		 |-	         	        |
+|Server          |`naming-server`				 |8761                         |Java		         		 |-	         	        |
+|Server          |`tracking-server`				 |9411                         |Java		         		 |RabbitMQ     	        |
 |Database		 |`postgresql`					 |5432                         |-			         		 |-	         	        |
 |Database		 |`mysql`						 |3306                         |-			         		 |-	         	        |
 |Database		 |`redis`						 |6379                         |-			         		 |-	         	        |
@@ -152,6 +152,7 @@ Tracking server for Blesk microservis application. Docs can be found [here](http
 |ROLE_CLIENT     |`petervarga`				 	 |client123                    |
 |ROLE_CLIENT     |`lukastrnka`				 	 |client123                    |
 |ROLE_COURIER    |`michalvelky`				 	 |courier123                   |
+|ROLE_COURIER    |`denismaly`				 	 |courier123                   |
 
 # system server-key
 	eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJsb2dpbl9pZCI6MSwiYWNjb
@@ -318,6 +319,9 @@ Tracking server for Blesk microservis application. Docs can be found [here](http
 - [mysql-database](https://hub.docker.com/r/matebence/mysql-database)
 - [postgres-database](https://hub.docker.com/r/matebence/postgres-database)
 - [rabbit-mq](https://hub.docker.com/r/matebence/rabbit-mq)
+
+## App redirects
+> ![App redirect flow](https://github.com/matebence/app-blesk/blob/develop/images/app_redirect_flow.png)
 
 # Jenkins dashboard
 > ![Jenkins dashboard](https://github.com/matebence/app-blesk/blob/master/images/jenkins_dashboard.jpg)
