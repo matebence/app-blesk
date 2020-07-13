@@ -289,17 +289,6 @@ Tracking server for Blesk microservis application. Docs can be found [here](http
 
 > All other configurations are listed here [Spring Cloud Config Server - config repo](https://github.com/matebence/config-repo) or in [Docker compose .yml file](https://github.com/matebence/app-blesk/blob/develop/docker-compose.yml)
 
-## App redirects
-```mermaid
-graph LR
-A[landing-bootsrap] -- /sign-in --> B((App))
-A[landing-bootsrap] -- /sign-up --> B((App))
-A[landing-bootsrap] -- /manage --> B((App))
-B((App)) -- isMobile --> C{pwa-react}
-B((App)) -- !isMobile --> D{web-vue}
-B((App)) -- manage:auth --> E{admin-angular}
-```
-
 ## Postman scripts
 - [vehicle-service](https://drive.google.com/file/d/1TWbRTDk5WWb5AwOJWL_TrQ3yh-iehq6j/view?usp=sharing)
 - [warehouse-service](https://drive.google.com/file/d/1hfsMgcx7P9PvAjFcw4KBwk1_UKRLxPkK/view?usp=sharing)
@@ -330,6 +319,9 @@ B((App)) -- manage:auth --> E{admin-angular}
 - [mysql-database](https://hub.docker.com/r/matebence/mysql-database)
 - [postgres-database](https://hub.docker.com/r/matebence/postgres-database)
 - [rabbit-mq](https://hub.docker.com/r/matebence/rabbit-mq)
+
+## App redirects
+> ![App redirect flow](https://github.com/matebence/app-blesk/blob/develop/images/app_redirect_flow.png)
 
 # Jenkins dashboard
 > ![Jenkins dashboard](https://github.com/matebence/app-blesk/blob/develop/images/jenkins_dashboard.jpg)
