@@ -64,7 +64,7 @@ Naming server for Blesk microservis application. Docs can be found [here](https:
 ## tracking-server
 
 Tracking server for Blesk microservis application. Docs can be found [here](https://zipkin.io/pages/quickstart.html).<br/>
-[![Build Status](https://travis-ci.org/openzipkin/zipkin.svg?branch=master)](https://travis-ci.org/openzipkin/zipkin) [![GitHub issues](https://img.shields.io/github/issues/matebence/tracking-server)](https://github.com/matebence/tracking-server/issues) [![GitHub forks](https://img.shields.io/github/forks/matebence/tracking-server)](https://github.com/matebence/tracking-server/network) [![GitHub stars](https://img.shields.io/github/stars/matebence/tracking-server)](https://github.com/matebence/tracking-server/stargazers)
+[![Build Status](https://travis-ci.org/openzipkin/zipkin.svg?branch=develop)](https://travis-ci.org/openzipkin/zipkin) [![GitHub issues](https://img.shields.io/github/issues/matebence/tracking-server)](https://github.com/matebence/tracking-server/issues) [![GitHub forks](https://img.shields.io/github/forks/matebence/tracking-server)](https://github.com/matebence/tracking-server/network) [![GitHub stars](https://img.shields.io/github/stars/matebence/tracking-server)](https://github.com/matebence/tracking-server/stargazers)
 
 # Used technologies
 
@@ -87,10 +87,10 @@ Tracking server for Blesk microservis application. Docs can be found [here](http
 # Network
 |Services   			|Subnet - Gateway  	          |Front-tier(IPv4Address) |Back-tier(IPv4Address)|
 |-----------------------|-----------------------------|------------------------|----------------------|
-|`landing-bootstrap`	|192.168.0.0/20 - 192.168.0.1 |192.168.0.7/20		   |000.000.0.0/00    	  |
-|`pwa-react`			|172.31.0.0/16 - 192.168.0.1  |192.168.0.8/20		   |172.31.0.21/16   	  |
-|`web-vue`				|172.31.0.0/16 - 192.168.0.1  |192.168.0.9/20		   |172.31.0.22/16   	  |
-|`admin-angular`		|172.31.0.0/16 - 192.168.0.1  |192.168.0.10/20		   |172.31.0.23/16   	  |
+|`landing-bootstrap`	|172.31.0.0/16 - 192.168.0.1  |192.168.0.7/20		   |000.000.0.0/00    	  |
+|`pwa-react`			|172.31.0.0/16 - 192.168.0.1  |192.168.0.8/20		   |172.31.0.22/16   	  |
+|`web-vue`				|172.31.0.0/16 - 192.168.0.1  |192.168.0.9/20		   |172.31.0.23/16   	  |
+|`admin-angular`		|172.31.0.0/16 - 192.168.0.1  |192.168.0.10/20		   |172.31.0.24/16   	  |
 |`vehicle-service`		|172.31.0.0/16 - 172.31.0.1   |000.000.0.0/00		   |172.31.0.19/16   	  |
 |`warehouse-service`	|172.31.0.0/16 - 172.31.0.1   |000.000.0.0/00		   |172.31.0.18/16   	  |
 |`shipment-service` 	|172.31.0.0/16 - 172.31.0.1   |000.000.0.0/00		   |172.31.0.17/16   	  |
@@ -128,11 +128,11 @@ Tracking server for Blesk microservis application. Docs can be found [here](http
 |Service         |`account-service`              |7000 - 7100         		   |Java		         		 |PostgreSQL, RabbitMQ	|
 |Service         |`user-service`         	     |7200 - 7300         		   |Java		         		 |MySQL, Redis     	    |
 |Service         |`messaging-service`         	 |7400 - 7500         		   |Java		         		 |Mongo	         	    |
-|Service         |`authorization-server`         |9090          			   |Java		         		 |RabbitMQ	         	|
-|Service         |`config-server`				 |8888						   |Java		         		 |GitHub       	        |
-|Service         |`gateway-server`				 |8765                         |Java		         		 |-	         	        |
-|Service         |`naming-server`				 |8761                         |Java		         		 |-	         	        |
-|Service         |`tracking-server`				 |9411                         |Java		         		 |RabbitMQ     	        |
+|Server          |`authorization-server`         |9090          			   |Java		         		 |RabbitMQ	         	|
+|Server          |`config-server`				 |8888						   |Java		         		 |GitHub       	        |
+|Server          |`gateway-server`				 |8765                         |Java		         		 |-	         	        |
+|Server          |`naming-server`				 |8761                         |Java		         		 |-	         	        |
+|Server          |`tracking-server`				 |9411                         |Java		         		 |RabbitMQ     	        |
 |Database		 |`postgresql`					 |5432                         |-			         		 |-	         	        |
 |Database		 |`mysql`						 |3306                         |-			         		 |-	         	        |
 |Database		 |`redis`						 |6379                         |-			         		 |-	         	        |
@@ -152,6 +152,7 @@ Tracking server for Blesk microservis application. Docs can be found [here](http
 |ROLE_CLIENT     |`petervarga`				 	 |client123                    |
 |ROLE_CLIENT     |`lukastrnka`				 	 |client123                    |
 |ROLE_COURIER    |`michalvelky`				 	 |courier123                   |
+|ROLE_COURIER    |`denismaly`				 	 |courier123                   |
 
 # system server-key
 	eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJsb2dpbl9pZCI6MSwiYWNjb
@@ -288,10 +289,21 @@ Tracking server for Blesk microservis application. Docs can be found [here](http
 
 > All other configurations are listed here [Spring Cloud Config Server - config repo](https://github.com/matebence/config-repo) or in [Docker compose .yml file](https://github.com/matebence/app-blesk/blob/develop/docker-compose.yml)
 
+## App redirects
+```mermaid
+graph LR
+A[landing-bootsrap] -- /sign-in --> B((App))
+A[landing-bootsrap] -- /sign-up --> B((App))
+A[landing-bootsrap] -- /manage --> B((App))
+B((App)) -- isMobile --> C{pwa-react}
+B((App)) -- !isMobile --> D{web-vue}
+B((App)) -- manage:auth --> E{admin-angular}
+```
+
 ## Postman scripts
 - [vehicle-service](https://drive.google.com/file/d/1TWbRTDk5WWb5AwOJWL_TrQ3yh-iehq6j/view?usp=sharing)
 - [warehouse-service](https://drive.google.com/file/d/1hfsMgcx7P9PvAjFcw4KBwk1_UKRLxPkK/view?usp=sharing)
-- [shipment-service](https://drive.google.com/file/d/114mYLfHAa6qZBUmctozcVvlWk5-az35K/view?usp=sharing)
+- [shipment-service](https://drive.google.com/file/d/1_lbE9rdetMKaSCEhqM8CPVa4sTJH83qE/view?usp=sharing)
 - [parcel-service](https://drive.google.com/file/d/1Hgb2mMym3HH0gD_eamt8O24Tx_QE2IDm/view?usp=sharing)
 - [place-service](https://drive.google.com/file/d/1GqUJ8xM1xANx5jC_hFG2NOL80YdDaliC/view?usp=sharing)
 - [account-service](https://drive.google.com/file/d/1eoKSg40w2x5tzYUX_ORQqe7vP73zCoeg/view?usp=sharing)
