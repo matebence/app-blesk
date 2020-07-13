@@ -66,8 +66,10 @@ services:
     container_name: landing-bootstrap
     environment:
       - PORT=4100
+      - MOBILE_SERVER=192.168.99.100:4200
+      - DESKTOP_SERVER=192.168.99.100:4300
+      - MANAGEMENT_SERVER=192.168.99.100:4400   
     networks:
-      - back-tier
       - front-tier
     depends_on:
       - config-server

@@ -64,7 +64,7 @@ Naming server for Blesk microservis application. Docs can be found [here](https:
 ## tracking-server
 
 Tracking server for Blesk microservis application. Docs can be found [here](https://zipkin.io/pages/quickstart.html).<br/>
-[![Build Status](https://travis-ci.org/openzipkin/zipkin.svg?branch=develop)](https://travis-ci.org/openzipkin/zipkin) [![GitHub issues](https://img.shields.io/github/issues/matebence/tracking-server)](https://github.com/matebence/tracking-server/issues) [![GitHub forks](https://img.shields.io/github/forks/matebence/tracking-server)](https://github.com/matebence/tracking-server/network) [![GitHub stars](https://img.shields.io/github/stars/matebence/tracking-server)](https://github.com/matebence/tracking-server/stargazers)
+[![Build Status](https://travis-ci.org/openzipkin/zipkin.svg?branch=master)](https://travis-ci.org/openzipkin/zipkin) [![GitHub issues](https://img.shields.io/github/issues/matebence/tracking-server)](https://github.com/matebence/tracking-server/issues) [![GitHub forks](https://img.shields.io/github/forks/matebence/tracking-server)](https://github.com/matebence/tracking-server/network) [![GitHub stars](https://img.shields.io/github/stars/matebence/tracking-server)](https://github.com/matebence/tracking-server/stargazers)
 
 # Used technologies
 
@@ -286,8 +286,10 @@ Tracking server for Blesk microservis application. Docs can be found [here](http
 > [All API keys are listed HERE](https://drive.google.com/file/d/11cycT6jk5CE-6RIjQULGIbjm_MgmUp7w/view?usp=sharing)
 
 ## Server configurations
-
 > All other configurations are listed here [Spring Cloud Config Server - config repo](https://github.com/matebence/config-repo) or in [Docker compose .yml file](https://github.com/matebence/app-blesk/blob/master/docker-compose.yml)
+
+## CORS
+> CORS policy definition can be found here [Spring Zuul Gateway Server - config repo](https://github.com/matebence/gateway-server/blob/master/src/main/java/com/blesk/gatewayserver/Config/Security.java) and here [config repo .yml file](https://github.com/matebence/config-repo/blob/master/gateway-server-prod.yml)
 
 ## Postman scripts
 - [vehicle-service](https://drive.google.com/file/d/1TWbRTDk5WWb5AwOJWL_TrQ3yh-iehq6j/view?usp=sharing)
@@ -301,27 +303,27 @@ Tracking server for Blesk microservis application. Docs can be found [here](http
 - [authorization-server](https://drive.google.com/file/d/1Y6eciLNmqpkepFgUXM5LroJ_Il7qGI-4/view?usp=sharing)
 
 ## Ready to use docker images can be found here
-- [vehicle-service](https://hub.docker.com/r/matebence/vehicle-service)
-- [warehouse-service](https://hub.docker.com/r/matebence/warehouse-service)
-- [shipment-service](https://hub.docker.com/r/matebence/shipment-service)
-- [parcel-service](https://hub.docker.com/r/matebence/parcel-service)
-- [place-service](https://hub.docker.com/r/matebence/place-service)
-- [account-service](https://hub.docker.com/r/matebence/account-service)
-- [user-service](https://hub.docker.com/r/matebence/user-service)
-- [messaging-service](https://hub.docker.com/r/matebence/messaging-service)
-- [authorization-server](https://hub.docker.com/r/matebence/authorization-server)
-- [config-server](https://hub.docker.com/r/matebence/config-server)
-- [gateway-server](https://hub.docker.com/r/matebence/gateway-server)
-- [naming-server](https://hub.docker.com/r/matebence/naming-server)
-- [tracking-server](https://hub.docker.com/r/matebence/tracking-server)
-- [mongo-database](https://hub.docker.com/r/matebence/mongo-database)
-- [redis-database](https://hub.docker.com/r/matebence/redis-database)
-- [mysql-database](https://hub.docker.com/r/matebence/mysql-database)
-- [postgres-database](https://hub.docker.com/r/matebence/postgres-database)
-- [rabbit-mq](https://hub.docker.com/r/matebence/rabbit-mq)
+- [vehicle-service](https://hub.docker.com/repository/docker/matebence/app-blesk_vehicle-service)
+- [warehouse-service](https://hub.docker.com/repository/docker/matebence/app-blesk_warehouse-service)
+- [shipment-service](https://hub.docker.com/repository/docker/matebence/app-blesk_shipment-service)
+- [parcel-service](https://hub.docker.com/repository/docker/matebence/app-blesk_parcel-service)
+- [place-service](https://hub.docker.com/repository/docker/matebence/app-blesk_place-service)
+- [account-service](https://hub.docker.com/repository/docker/matebence/app-blesk_account-service)
+- [user-service](https://hub.docker.com/repository/docker/matebence/app-blesk_user-service)
+- [messaging-service](https://hub.docker.com/repository/docker/matebence/app-blesk_messaging-service)
+- [authorization-server](https://hub.docker.com/repository/docker/matebence/app-blesk_authorization-server)
+- [config-server](https://hub.docker.com/repository/docker/matebence/app-blesk_config-server)
+- [gateway-server](https://hub.docker.com/repository/docker/matebence/app-blesk_gateway-server)
+- [naming-server](https://hub.docker.com/repository/docker/matebence/app-blesk_naming-server)
+- [tracking-server](https://hub.docker.com/repository/docker/matebence/app-blesk_tracking-server)
+- [mongo-database](https://hub.docker.com/repository/docker/matebence/app-blesk_mongo-database)
+- [redis-database](https://hub.docker.com/repository/docker/matebence/app-blesk_redis-database)
+- [mysql-database](https://hub.docker.com/repository/docker/matebence/app-blesk_mysql-database)
+- [postgres-database](https://hub.docker.com/repository/docker/matebence/app-blesk_postgres-database)
+- [rabbit-mq](https://hub.docker.com/repository/docker/matebence/app-blesk_rabbit-mq)
 
 ## App redirects
-> ![App redirect flow](https://github.com/matebence/app-blesk/blob/develop/images/app_redirect_flow.png)
+> ![App redirect flow](https://github.com/matebence/app-blesk/blob/master/images/app_redirect_flow.png)
 
 # Jenkins dashboard
 > ![Jenkins dashboard](https://github.com/matebence/app-blesk/blob/master/images/jenkins_dashboard.jpg)
@@ -330,4 +332,5 @@ Tracking server for Blesk microservis application. Docs can be found [here](http
 # Microservices network visualization(with Zipkin)
 > ![Zipkin dashboard](https://github.com/matebence/app-blesk/blob/master/images/zipkin_dashboard.jpg)
 # Application UI screenshoots
+> # landing-boostrap
 > ![Landing bootstrap](https://github.com/matebence/app-blesk/blob/master/images/landing-bootstrap.gif)
