@@ -289,7 +289,7 @@ Tracking server for Blesk microservis application. Docs can be found [here](http
 > All other configurations are listed here [Spring Cloud Config Server - config repo](https://github.com/matebence/config-repo) or in [Docker compose .yml file](https://github.com/matebence/app-blesk/blob/master/docker-compose.yml)
 
 ## CORS
-> CORS policy definition can be found here [Spring Zuul Gateway Server - config repo](https://github.com/matebence/gateway-server/blob/master/src/main/java/com/blesk/gatewayserver/Config/Security.java) and here [config repo .yml file](https://github.com/matebence/config-repo/blob/master/gateway-server-prod.yml)
+> CORS policy definition can be found here [Spring Zuul Gateway Server](https://github.com/matebence/gateway-server/blob/master/src/main/java/com/blesk/gatewayserver/Config/Security.java) and here [gateway-server .yml config file](https://github.com/matebence/config-repo/blob/master/gateway-server-prod.yml)
 
 ## Postman scripts
 - [vehicle-service](https://drive.google.com/file/d/1TWbRTDk5WWb5AwOJWL_TrQ3yh-iehq6j/view?usp=sharing)
