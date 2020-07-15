@@ -264,20 +264,19 @@ Tracking server for Blesk microservis application. Docs can be found [here](http
 
 > It can be tested here [https://jwt.io/](https://jwt.io/)
 
-	eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJsb2dpbl9pZ
-	CI6MywiYWNjb3VudF9pZCI6MywidXNlcl9uYW1lIjoicGV0ZXJ
-	2YXJnYSIsInNjb3BlIjpbInRydXN0Il0sImV4cCI6MTU5MjU3N
-	zIyMywiYXV0aG9yaXRpZXMiOlsiUk9MRV9DTElFTlQiXSwianR
-	pIjoiZDE1YTlkZWYtZDYwZS00ZjU3LWEwOTgtMjVlMGMwOWY4N
-	DQ2IiwiY2xpZW50X2lkIjoiOGRlNGRjNTYtNmU5Ni0xMWVhLWJ
-	jNTUtMDI0MmFjMTMwMDAzIiwiYWN0aXZhdGVkIjp0cnVlfQ.Ms
-	dBA0y0J7S4hSbV3qyVrxmqnzYq-BBp4k1QqHmyjyRNpBvTEUz-
-	xWFmfauCwNA4SzqEQYnDyUcQcka58PVVLXMaTaZ5xHAaUbqBJI
-	LfynYa7GOBrG58w0fgCFgoyQXbCXyAOTKffyl7qEeV8zbDVdUC
-	k0IguJzgdbVBDYgEfjqyhiGOnkPllLxgWSgfbEO9elbzdoFWHP
-	OW1gRH2Qzm_2zGpuiZ9Abvsr9B5h8LWHuj3Yi1iwd13SgU-5zB
-	7W14bTIoaJ-xfdwcC3-8XopmOwPzD5XMfH2RPBR2aBUs5EuHZo
-	kGvqRsZfwSGM0IZlU-amK_G6rOfnGhTRSCCLXihw
+	eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJhY2NvdW50X
+	2lkIjozLCJ1c2VyX25hbWUiOiJwZXRlcnZhcmdhIiwic2NvcGU
+	iOlsidHJ1c3QiXSwiZXhwIjoxNTk0ODAzMDAxLCJhdXRob3Jpd
+	GllcyI6WyJST0xFX0NMSUVOVCJdLCJqdGkiOiIxMWE4NmQxZS1
+	kMzAwLTQ5M2QtOTQ4Mi01ZTNkYTc4Y2U0ZTMiLCJjbGllbnRfa
+	WQiOiI4ZGU0ZGM1Ni02ZTk2LTExZWEtYmM1NS0wMjQyYWMxMzA
+	wMDMifQ.EWASm5uonsM6c_jJqgqWgkXApWVmkGDEKYlUEnFKvY
+	JtI1ysVk4THFoYFeZYCsHoZijk1wnCg1hyB4gZSOCJ1Q6p9l0z
+	q0TBBlliyroCpfmIM2Ijot03r5T_69SWD2LDhs4b9y_XFIc3NA
+	qB_jkBdZCqGy4w2VnhamjGc2zfLAOoywlGZqku2s0TIQCpZU0L
+	EoEQqogSw-KUMWLbkVCNfLEvtOOIwzTzELedqyJWmajQ1Eh5oK
+	MdBBS9yzACahpcZm6x_mX-9jp1elaIO4Yty-glIFFqb5EjBm6v
+	0DvDN_PE5iBVXyk3mNbX6xGk_lQ7kyivlLBVyy1cxeufN6qy8Q
 
 ## All other API key and configurations are listed here
 - **Stripe** API - payment
@@ -288,6 +287,9 @@ Tracking server for Blesk microservis application. Docs can be found [here](http
 ## Server configurations
 
 > All other configurations are listed here [Spring Cloud Config Server - config repo](https://github.com/matebence/config-repo) or in [Docker compose .yml file](https://github.com/matebence/app-blesk/blob/develop/docker-compose.yml)
+
+## CORS
+> CORS policy definition can be found here [Spring Zuul Gateway Server](https://github.com/matebence/gateway-server/blob/develop/src/main/java/com/blesk/gatewayserver/Config/Security.java) and here [gateway-server .yml config file](https://github.com/matebence/config-repo/blob/master/gateway-server-prod.yml)
 
 ## Postman scripts
 - [vehicle-service](https://drive.google.com/file/d/1TWbRTDk5WWb5AwOJWL_TrQ3yh-iehq6j/view?usp=sharing)
@@ -301,24 +303,28 @@ Tracking server for Blesk microservis application. Docs can be found [here](http
 - [authorization-server](https://drive.google.com/file/d/1Y6eciLNmqpkepFgUXM5LroJ_Il7qGI-4/view?usp=sharing)
 
 ## Ready to use docker images can be found here
-- [vehicle-service](https://hub.docker.com/r/matebence/vehicle-service)
-- [warehouse-service](https://hub.docker.com/r/matebence/warehouse-service)
-- [shipment-service](https://hub.docker.com/r/matebence/shipment-service)
-- [parcel-service](https://hub.docker.com/r/matebence/parcel-service)
-- [place-service](https://hub.docker.com/r/matebence/place-service)
-- [account-service](https://hub.docker.com/r/matebence/account-service)
-- [user-service](https://hub.docker.com/r/matebence/user-service)
-- [messaging-service](https://hub.docker.com/r/matebence/messaging-service)
-- [authorization-server](https://hub.docker.com/r/matebence/authorization-server)
-- [config-server](https://hub.docker.com/r/matebence/config-server)
-- [gateway-server](https://hub.docker.com/r/matebence/gateway-server)
-- [naming-server](https://hub.docker.com/r/matebence/naming-server)
-- [tracking-server](https://hub.docker.com/r/matebence/tracking-server)
-- [mongo-database](https://hub.docker.com/r/matebence/mongo-database)
-- [redis-database](https://hub.docker.com/r/matebence/redis-database)
-- [mysql-database](https://hub.docker.com/r/matebence/mysql-database)
-- [postgres-database](https://hub.docker.com/r/matebence/postgres-database)
-- [rabbit-mq](https://hub.docker.com/r/matebence/rabbit-mq)
+- [admin-angular](https://hub.docker.com/repository/docker/matebence/app-blesk_admin-angular)
+- [web-vue](https://hub.docker.com/repository/docker/matebence/app-blesk_web-vue)
+- [pwa-react](https://hub.docker.com/repository/docker/matebence/app-blesk_pwa-react)
+- [landing-bootstrap](https://hub.docker.com/repository/docker/matebence/app-blesk_landing-bootstrap)
+- [vehicle-service](https://hub.docker.com/repository/docker/matebence/app-blesk_vehicle-service)
+- [warehouse-service](https://hub.docker.com/repository/docker/matebence/app-blesk_warehouse-service)
+- [shipment-service](https://hub.docker.com/repository/docker/matebence/app-blesk_shipment-service)
+- [parcel-service](https://hub.docker.com/repository/docker/matebence/app-blesk_parcel-service)
+- [place-service](https://hub.docker.com/repository/docker/matebence/app-blesk_place-service)
+- [account-service](https://hub.docker.com/repository/docker/matebence/app-blesk_account-service)
+- [user-service](https://hub.docker.com/repository/docker/matebence/app-blesk_user-service)
+- [messaging-service](https://hub.docker.com/repository/docker/matebence/app-blesk_messaging-service)
+- [authorization-server](https://hub.docker.com/repository/docker/matebence/app-blesk_authorization-server)
+- [config-server](https://hub.docker.com/repository/docker/matebence/app-blesk_config-server)
+- [gateway-server](https://hub.docker.com/repository/docker/matebence/app-blesk_gateway-server)
+- [naming-server](https://hub.docker.com/repository/docker/matebence/app-blesk_naming-server)
+- [tracking-server](https://hub.docker.com/repository/docker/matebence/app-blesk_tracking-server)
+- [mongo-database](https://hub.docker.com/repository/docker/matebence/app-blesk_mongo-database)
+- [redis-database](https://hub.docker.com/repository/docker/matebence/app-blesk_redis-database)
+- [mysql-database](https://hub.docker.com/repository/docker/matebence/app-blesk_mysql-database)
+- [postgres-database](https://hub.docker.com/repository/docker/matebence/app-blesk_postgres-database)
+- [rabbit-mq](https://hub.docker.com/repository/docker/matebence/app-blesk_rabbit-mq)
 
 ## App redirects
 > ![App redirect flow](https://github.com/matebence/app-blesk/blob/develop/images/app_redirect_flow.png)
