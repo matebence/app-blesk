@@ -290,9 +290,6 @@ Tracking server for Blesk microservis application. Docs can be found [here](http
 ## CORS
 > CORS policy definition can be found here [Spring Zuul Gateway Server](https://github.com/matebence/gateway-server/blob/master/src/main/java/com/blesk/gatewayserver/Config/Security.java) and here [gateway-server .yml config file](https://github.com/matebence/config-repo/blob/master/gateway-server-prod.yml)
 
-## CORS
-> CORS policy definition can be found here [Spring Zuul Gateway Server](https://github.com/matebence/gateway-server/blob/develop/src/main/java/com/blesk/gatewayserver/Config/Security.java) and here [gateway-server .yml config file](https://github.com/matebence/config-repo/blob/master/gateway-server-prod.yml)
-
 ## Postman scripts
 - [vehicle-service](https://drive.google.com/file/d/1TWbRTDk5WWb5AwOJWL_TrQ3yh-iehq6j/view?usp=sharing)
 - [warehouse-service](https://drive.google.com/file/d/1hfsMgcx7P9PvAjFcw4KBwk1_UKRLxPkK/view?usp=sharing)
@@ -338,5 +335,5 @@ Tracking server for Blesk microservis application. Docs can be found [here](http
 # Microservices network visualization(with Zipkin)
 > ![Zipkin dashboard](https://github.com/matebence/app-blesk/blob/master/images/zipkin_dashboard.jpg)
 # Application UI screenshoots
-> # landing-boostrap
+> ## landing-boostrap
 > ![Landing bootstrap](https://github.com/matebence/app-blesk/blob/master/images/landing-bootstrap.gif)
