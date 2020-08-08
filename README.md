@@ -116,23 +116,23 @@ Tracking server for Blesk microservis application. Docs can be found [here](http
 # Ports
 |                |Service name                   |Port                         |Programing language          |Database          	|
 |----------------|-------------------------------|-----------------------------|-----------------------------|----------------------|
-|App	         |`landing-bootstrap`            |4100		         		   |JavaScript	         		 |-			     	    |
-|App      		 |`pwa-react`		             |4200         				   |JavaScript	         		 |-     			    |
-|App             |`web-vue`      		         |4300      		   		   |JavaScript	         		 |-     	    		|
-|App  	         |`admin-angular`                |4400		         		   |JavaScript	         		 |-     	    		|
-|Service         |`place-service`                |5000 - 5100         		   |JavaScript	         		 |-     	    		|
-|Service         |`vehicle-service`              |5200 - 5300         		   |JavaScript	         		 |-   	    			|
-|Service         |`warehouse-service`            |5400 - 5500         		   |JavaScript	         		 |Mongo   	     	    |
-|Service         |`shipment-service`             |5600 - 5700         		   |JavaScript	         		 |Mongo, Redis     	    |
-|Service         |`parcel-service`               |5800 - 5900         		   |JavaScript	         		 |PostgreSQL, Redis	    |
-|Service         |`account-service`              |7000 - 7100         		   |Java		         		 |PostgreSQL, RabbitMQ	|
-|Service         |`user-service`         	     |7200 - 7300         		   |Java		         		 |MySQL, Redis     	    |
-|Service         |`messaging-service`         	 |7400 - 7500         		   |Java		         		 |Mongo	         	    |
-|Server          |`authorization-server`         |9090          			   |Java		         		 |RabbitMQ	         	|
-|Server          |`config-server`				 |8888						   |Java		         		 |GitHub       	        |
-|Server          |`gateway-server`				 |8765                         |Java		         		 |-	         	        |
-|Server          |`naming-server`				 |8761                         |Java		         		 |-	         	        |
-|Server          |`tracking-server`				 |9411                         |Java		         		 |RabbitMQ     	        |
+|App	         |`landing-bootstrap`            |4100		         		   |JavaScript(Angular)    		 |-			     	    |
+|App      		 |`pwa-react`		             |4200         				   |JavaScript(React)     		 |-     			    |
+|App             |`web-vue`      		         |4300      		   		   |JavaScript(Vue)       		 |-     	    		|
+|App  	         |`admin-angular`                |4400		         		   |JavaScript(Express.js) 		 |-     	    		|
+|Service         |`place-service`                |5000 - 5100         		   |JavaScript(Express.js) 		 |-     	    		|
+|Service         |`vehicle-service`              |5200 - 5300         		   |JavaScript(Express.js) 		 |-   	    			|
+|Service         |`warehouse-service`            |5400 - 5500         		   |JavaScript(Express.js) 		 |Mongo   	     	    |
+|Service         |`shipment-service`             |5600 - 5700         		   |JavaScript(Express.js) 		 |Mongo, Redis     	    |
+|Service         |`parcel-service`               |5800 - 5900         		   |JavaScript(Express.js) 		 |PostgreSQL, Redis	    |
+|Service         |`account-service`              |7000 - 7100         		   |Java(Spring)         		 |PostgreSQL, RabbitMQ	|
+|Service         |`user-service`         	     |7200 - 7300         		   |Java(Spring)         		 |MySQL, Redis     	    |
+|Service         |`messaging-service`         	 |7400 - 7500         		   |Java(Spring)         		 |Mongo	         	    |
+|Server          |`authorization-server`         |9090          			   |Java(Spring)         		 |RabbitMQ	         	|
+|Server          |`config-server`				 |8888						   |Java(Spring)         		 |GitHub       	        |
+|Server          |`gateway-server`				 |8765                         |Java(Spring)        		 |-	         	        |
+|Server          |`naming-server`				 |8761                         |Java(Spring)         		 |-	         	        |
+|Server          |`tracking-server`				 |9411                         |Java(Spring)        		 |RabbitMQ     	        |
 |Database		 |`postgresql`					 |5432                         |-			         		 |-	         	        |
 |Database		 |`mysql`						 |3306                         |-			         		 |-	         	        |
 |Database		 |`redis`						 |6379                         |-			         		 |-	         	        |
@@ -281,6 +281,8 @@ Tracking server for Blesk microservis application. Docs can be found [here](http
 ## All other API key and configurations are listed here
 - **Stripe** API - payment
 - **Firebase** API - push notifications
+- **ip-api** API - location
+- **ipify** API - ipv4 address
 - **HERE** API - maps
 > [All API keys are listed HERE](https://drive.google.com/file/d/11cycT6jk5CE-6RIjQULGIbjm_MgmUp7w/view?usp=sharing)
 
