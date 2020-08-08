@@ -281,8 +281,8 @@ Tracking server for Blesk microservis application. Docs can be found [here](http
 ## All other API key and configurations are listed here
 - **Stripe** API - payment
 - **Firebase** API - push notifications
-- **ip-api** API - location
-- **ipify** API - ipv4 address
+- **IP-API** API - location
+- **IPIFY** API - IPv4 address
 - **HERE** API - maps
 > [All API keys are listed HERE](https://drive.google.com/file/d/11cycT6jk5CE-6RIjQULGIbjm_MgmUp7w/view?usp=sharing)
 
