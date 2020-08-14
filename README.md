@@ -329,10 +329,9 @@ Tracking server for Blesk **microservice** application. [API Docs](https://zipki
 - [rabbit-mq](https://hub.docker.com/repository/docker/matebence/app-blesk_rabbit-mq)
 
 ## Invoice example
-> ![Invoice](https://github.com/matebence/app-blesk/blob/master/examples/eb5377322765cde00ebb8986e65430ea.pdf)
+> [Docs](https://github.com/matebence/app-blesk/blob/master/examples/eb5377322765cde00ebb8986e65430ea.pdf)
 ## App redirects
 > ![App redirect flow](https://github.com/matebence/app-blesk/blob/master/images/app_redirect_flow.png)
-
 # Jenkins dashboard
 > ![Jenkins dashboard](https://github.com/matebence/app-blesk/blob/master/images/jenkins_dashboard.jpg)
 # Spring Eureka
