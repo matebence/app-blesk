@@ -297,7 +297,7 @@ Tracking server for Blesk **microservice** application. [API Docs](https://zipki
 - [vehicle-service](https://drive.google.com/file/d/1TWbRTDk5WWb5AwOJWL_TrQ3yh-iehq6j/view?usp=sharing)
 - [warehouse-service](https://drive.google.com/file/d/1hfsMgcx7P9PvAjFcw4KBwk1_UKRLxPkK/view?usp=sharing)
 - [shipment-service](https://drive.google.com/file/d/1_lbE9rdetMKaSCEhqM8CPVa4sTJH83qE/view?usp=sharing)
-- [parcel-service](https://drive.google.com/file/d/1Hgb2mMym3HH0gD_eamt8O24Tx_QE2IDm/view?usp=sharing)
+- [parcel-service](https://drive.google.com/file/d/1yZcsFg98CovXzt6sKcOQC-OojHFFnuMV/view?usp=sharing)
 - [place-service](https://drive.google.com/file/d/14DcosKDHJZtainss9BKsB8-MisRV2T2r/view?usp=sharing)
 - [account-service](https://drive.google.com/file/d/1uPFuTxqVx071qsGKHGH9uX3LkQBqSDwS/view?usp=sharing)
 - [user-service](https://drive.google.com/file/d/199a4_r-wRO8GVBEWMdL49_RaVMYOcT-G/view?usp=sharing)
