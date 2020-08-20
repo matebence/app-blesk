@@ -115,35 +115,35 @@ Tracking server for Blesk **microservice** application. [API Docs](https://zipki
 
 
 # Ports
-|                |Service name                   |Port                         |Programing language    |Framework    |Database              |
-|----------------|-------------------------------|-----------------------------|-----------------------|-------------|----------------------|
-|App	         |`landing-bootstrap`            |4100		         		   |JavaScript    		   |Angular      |-         	        |
-|App      		 |`pwa-react`		             |4200         				   |JavaScript     		   |React        |-    			        |
-|App             |`web-vue`      		         |4300      		   		   |JavaScript       	   |Vue          |-     	    		|
-|App  	         |`admin-angular`                |4400		         		   |JavaScript 		       |Express.js   |-     	    		|
-|Service         |`place-service`                |5000 - 5100         		   |JavaScript 		       |Express.js   |MySQL, Redis    		|
-|Service         |`vehicle-service`              |5200 - 5300         		   |JavaScript 		       |Express.js   |Mongo, Redis 		    |
-|Service         |`warehouse-service`            |5400 - 5500         		   |JavaScript 		       |Express.js   |Mongo   	     	    |
-|Service         |`shipment-service`             |5600 - 5700         		   |JavaScript 		       |Express.js   |Mongo, Redis     	    |
-|Service         |`parcel-service`               |5800 - 5900         		   |JavaScript 		       |Express.js   |PostgreSQL, Redis	    |
-|Service         |`account-service`              |7000 - 7100         		   |Java         		   |Spring Boot  |PostgreSQL, RabbitMQ  |
-|Service         |`user-service`         	     |7200 - 7300         		   |Java         		   |Spring Boot  |MySQL, Redis     	    |
-|Service         |`messaging-service`         	 |7400 - 7500         		   |Java         		   |Spring Boot  |Mongo	         	    |
-|Server          |`authorization-server`         |9090          			   |Java         		   |Spring Boot  |RabbitMQ	            |
-|Server          |`config-server`				 |8888						   |Java         		   |Spring Boot  |GitHub       	        |
-|Server          |`gateway-server`				 |8765                         |Java        		   |Spring Boot  |-	         	        |
-|Server          |`naming-server`				 |8761                         |Java         		   |Spring Boot  |-	         	        |
-|Server          |`tracking-server`				 |9411                         |Java        		   |Spring Boot  |RabbitMQ     	        |
-|Database		 |`postgresql`					 |5432                         |-			           |             |-	         	        |
-|Database		 |`mysql`						 |3306                         |-			           |             |-	         	        |
-|Database		 |`redis`						 |6379                         |-			           |             |-	         	        |
-|Database		 |`mongo`						 |27017                        |-			           |             |-	         	        |
-|Message queue   |`rabbitmq`					 |5672                         |-			           |             |-	         	        |
-|Message queue   |`rabbitmq-management`			 |15672						   |-			           |             |-	         	        |
-|Dev tools   	 |`mailhog`						 |1025						   |-			           |             |-	         	        |
-|Dev tools   	 |`mailhog-client`				 |8025						   |-			           |             |-	         	        |
-|Dev tools		 |`adminer`						 |8050						   |-			           |             |-	         	        |
-|Dev tools		 |`jenkins`						 |8080						   |-			           |             |-	         	        |         	        |
+|                |Service name                   |Port                         |Programing language    |Framework          |Database              |
+|----------------|-------------------------------|-----------------------------|-----------------------|-------------------|----------------------|
+|App	         |`landing-bootstrap`            |4100		         		   |JavaScript    		   |jQuery, Bootstrap  |-         	          |
+|App      		 |`pwa-react`		             |4200         				   |JavaScript     		   |React              |-    			      |
+|App             |`web-vue`      		         |4300      		   		   |JavaScript       	   |Vue                |-     	    		  |
+|App  	         |`admin-angular`                |4400		         		   |JavaScript 		       |Angular            |-     	    		  |
+|Service         |`place-service`                |5000 - 5100         		   |JavaScript 		       |Express.js         |MySQL, Redis    	  |
+|Service         |`vehicle-service`              |5200 - 5300         		   |JavaScript 		       |Express.js         |Mongo, Redis 		  |
+|Service         |`warehouse-service`            |5400 - 5500         		   |JavaScript 		       |Express.js         |Mongo   	     	  |
+|Service         |`shipment-service`             |5600 - 5700         		   |JavaScript 		       |Express.js         |Mongo, Redis     	  |
+|Service         |`parcel-service`               |5800 - 5900         		   |JavaScript 		       |Express.js         |PostgreSQL, Redis	  |
+|Service         |`account-service`              |7000 - 7100         		   |Java         		   |Spring Boot        |PostgreSQL, RabbitMQ  |
+|Service         |`user-service`         	     |7200 - 7300         		   |Java         		   |Spring Boot        |MySQL, Redis     	  |
+|Service         |`messaging-service`         	 |7400 - 7500         		   |Java         		   |Spring Boot        |Mongo	         	  |
+|Server          |`authorization-server`         |9090          			   |Java         		   |Spring Boot        |RabbitMQ	          |
+|Server          |`config-server`				 |8888						   |Java         		   |Spring Boot        |GitHub       	      |
+|Server          |`gateway-server`				 |8765                         |Java        		   |Spring Boot        |-	         	      |
+|Server          |`naming-server`				 |8761                         |Java         		   |Spring Boot        |-	         	      |
+|Server          |`tracking-server`				 |9411                         |Java        		   |Spring Boot        |RabbitMQ     	      |
+|Database		 |`postgresql`					 |5432                         |-			           |                   |-	         	      |
+|Database		 |`mysql`						 |3306                         |-			           |                   |-	         	      |
+|Database		 |`redis`						 |6379                         |-			           |                   |-	         	      |
+|Database		 |`mongo`						 |27017                        |-			           |                   |-	         	      |
+|Message queue   |`rabbitmq`					 |5672                         |-			           |                   |-	         	      |
+|Message queue   |`rabbitmq-management`			 |15672						   |-			           |                   |-	         	      |
+|Dev tools   	 |`mailhog`						 |1025						   |-			           |                   |-	         	      |
+|Dev tools   	 |`mailhog-client`				 |8025						   |-			           |                   |-	         	      |
+|Dev tools		 |`adminer`						 |8050						   |-			           |                   |-	         	      |
+|Dev tools		 |`jenkins`						 |8080						   |-			           |                   |-	         	      |
 
 # Application acces
 |Role            |Username 		                 |Password                     |
