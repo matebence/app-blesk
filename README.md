@@ -285,7 +285,7 @@ Tracking server for Blesk **microservice** application. [API Docs](https://zipki
 - **IP-API** API - location
 - **IPIFY** API - IPv4 address
 - **HERE** API - maps
-> API keys are stored on [Google Drive](https://drive.google.com/file/d/11cycT6jk5CE-6RIjQULGIbjm_MgmUp7w/view?usp=sharing) here
+> API keys are stored on [Google Drive](https://drive.google.com/file/d/11cycT6jk5CE-6RIjQULGIbjm_MgmUp7w/view?usp=sharing)
 
 ## Server configuration and startup file
 > The server config files can be found [here](https://github.com/matebence/config-repo) and the strartup file is stored in a [Docker compose .yml file](https://github.com/matebence/app-blesk/blob/master/docker-compose.yml)
@@ -332,6 +332,8 @@ Tracking server for Blesk **microservice** application. [API Docs](https://zipki
 > Invoice [eb5377322765cde00ebb8986e65430ea.pdf](https://github.com/matebence/app-blesk/blob/master/examples/eb5377322765cde00ebb8986e65430ea.pdf)
 ## App redirects
 > ![App redirect flow](https://github.com/matebence/app-blesk/blob/master/images/app_redirect_flow.png)
+# List of email notifications
+> ![Mailhog dashboard](https://github.com/matebence/app-blesk/blob/master/images/mailhog_dasboard.png)
 # Jenkins dashboard
 > ![Jenkins dashboard](https://github.com/matebence/app-blesk/blob/master/images/jenkins_dashboard.jpg)
 # Spring Eureka
