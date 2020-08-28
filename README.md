@@ -69,7 +69,7 @@ Tracking server for Blesk **microservice** application. [API Docs](https://zipki
 # Project is build up on technologies like
 
 - Spring Cloud Config server,
-- Load Balancing with Ribbon, Feign and resilient
+- Load Balancing with Ribbon, Feign and Resilient
 - Naming Server with Eureka
 - Fault Tolerance with Hystrix
 - API Gateway with Zuul
@@ -340,6 +340,8 @@ Tracking server for Blesk **microservice** application. [API Docs](https://zipki
 > ![Eureka dashboard](https://github.com/matebence/app-blesk/blob/master/images/eureka_dashboard.jpg)
 # Microservices network visualization(with Zipkin)
 > ![Zipkin dashboard](https://github.com/matebence/app-blesk/blob/master/images/zipkin_dashboard.jpg)
+# Caching strategy visualization
+> ![Caching strategy](https://github.com/matebence/app-blesk/blob/master/images/redis_cache_strategy.png)
 # Application UI screenshoots
 > ## landing-boostrap
 > ![Landing bootstrap](https://github.com/matebence/app-blesk/blob/master/images/landing-bootstrap.gif)
