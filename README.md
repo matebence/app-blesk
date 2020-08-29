@@ -291,7 +291,7 @@ Tracking server for Blesk **microservice** application. [API Docs](https://zipki
 > The server config files can be found [here](https://github.com/matebence/config-repo) and the strartup file is stored in a [Docker compose .yml file](https://github.com/matebence/app-blesk/blob/master/docker-compose.yml)
 
 ## CORS
-> CORS policy definition can be found here [gateway-server .yml file](https://github.com/matebence/config-repo/blob/master/gateway-server-prod.yml) 
+> CORS policy definition can be found here [gateway-server.yml file](https://github.com/matebence/config-repo/blob/master/gateway-server-prod.yml) 
 
 ## Postman scripts
 - [vehicle-service](https://drive.google.com/file/d/1TWbRTDk5WWb5AwOJWL_TrQ3yh-iehq6j/view?usp=sharing)
@@ -300,7 +300,7 @@ Tracking server for Blesk **microservice** application. [API Docs](https://zipki
 - [parcel-service](https://drive.google.com/file/d/1yZcsFg98CovXzt6sKcOQC-OojHFFnuMV/view?usp=sharing)
 - [place-service](https://drive.google.com/file/d/14DcosKDHJZtainss9BKsB8-MisRV2T2r/view?usp=sharing)
 - [account-service](https://drive.google.com/file/d/1uPFuTxqVx071qsGKHGH9uX3LkQBqSDwS/view?usp=sharing)
-- [user-service](https://drive.google.com/file/d/199a4_r-wRO8GVBEWMdL49_RaVMYOcT-G/view?usp=sharing)
+- [user-service](https://drive.google.com/file/d/1F3giwJDdQ9j6al0OQRqle-O4xaNf9NGd/view?usp=sharing)
 - [messaging-service](https://drive.google.com/file/d/16Mo-6GHVP-7epnbJnx41eJXSixid-z__/view?usp=sharing)
 - [authorization-server](https://drive.google.com/file/d/1Y6eciLNmqpkepFgUXM5LroJ_Il7qGI-4/view?usp=sharing)
 
