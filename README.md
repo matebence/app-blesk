@@ -81,6 +81,9 @@ Tracking server for Blesk **microservice** application. [API Docs](https://zipki
 - RabbitMQ - service to service communication
 - Websocket - real time communication
 - Databases - MySQL, PostgreSQL, MongoDB, Redis
+- ORM - Hibernate, Sequelize
+- ODM - Mongoose
+- Spring Data, JPA, Criteria API, JPQL
 - Frontend - React, Vue, Angular
 - Backend - NodeJs, Java Spring
 
