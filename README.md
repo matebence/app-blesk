@@ -1,75 +1,75 @@
-# Blesk microservices application
-> Blesk **microservices** application
+# Blesk microservice application
+> Blesk **microservice** application
 
 ## vehicle-service
 
-Places service for Blesk microservis application. Docs can be found [here](https://github.com/matebence/app-blesk/blob/develop/services_rest_docs/vehicle_service_docs.pdf). <br/>
+Places service for Blesk **microservice** application. [Docs](https://github.com/matebence/app-blesk/blob/develop/services_rest_docs/vehicle_service_docs.pdf). <br/>
 [![Build Status](https://travis-ci.org/matebence/vehicle-service.svg?branch=develop)](https://travis-ci.org/matebence/vehicle-service) [![GitHub issues](https://img.shields.io/github/issues/matebence/vehicles-service)](https://github.com/matebence/vehicles-service/issues) [![GitHub forks](https://img.shields.io/github/forks/matebence/vehicles-service)](https://github.com/matebence/vehicles-service/network) [![GitHub stars](https://img.shields.io/github/stars/matebence/vehicles-service)](https://github.com/matebence/vehicles-service/stargazers)
 
 ## warehouse-service
 
-Places service for Blesk microservis application. Docs can be found [here](https://github.com/matebence/app-blesk/blob/develop/services_rest_docs/warehouse_service_docs.pdf). <br/>
+Places service for Blesk **microservice** application. [Docs](https://github.com/matebence/app-blesk/blob/develop/services_rest_docs/warehouse_service_docs.pdf). <br/>
 [![Build Status](https://travis-ci.org/matebence/warehouse-service.svg?branch=develop)](https://travis-ci.org/matebence/warehouse-service) [![GitHub issues](https://img.shields.io/github/issues/matebence/warehouses-service)](https://github.com/matebence/warehouses-service/issues) [![GitHub forks](https://img.shields.io/github/forks/matebence/warehouses-service)](https://github.com/matebence/warehouses-service/network) [![GitHub stars](https://img.shields.io/github/stars/matebence/warehouses-service)](https://github.com/matebence/warehouses-service/stargazers)
 
 ## shipment-service
 
-Places service for Blesk microservis application. Docs can be found [here](https://github.com/matebence/app-blesk/blob/develop/services_rest_docs/shipment_service_docs.pdf). <br/>
+Places service for Blesk **microservice** application. [Docs](https://github.com/matebence/app-blesk/blob/develop/services_rest_docs/shipment_service_docs.pdf). <br/>
 [![Build Status](https://travis-ci.org/matebence/shipment-service.svg?branch=develop)](https://travis-ci.org/matebence/shipment-service) [![GitHub issues](https://img.shields.io/github/issues/matebence/shipments-service)](https://github.com/matebence/shipments-service/issues) [![GitHub forks](https://img.shields.io/github/forks/matebence/shipments-service)](https://github.com/matebence/shipments-service/network) [![GitHub stars](https://img.shields.io/github/stars/matebence/shipments-service)](https://github.com/matebence/shipments-service/stargazers)
 
 ## parcel-service
 
-Places service for Blesk microservis application. Docs can be found [here](https://github.com/matebence/app-blesk/blob/develop/services_rest_docs/parcel_service_docs.pdf). <br/>
+Places service for Blesk **microservice** application. [Docs](https://github.com/matebence/app-blesk/blob/develop/services_rest_docs/parcel_service_docs.pdf). <br/>
 [![Build Status](https://travis-ci.org/matebence/parcel-service.svg?branch=develop)](https://travis-ci.org/matebence/parcel-service) [![GitHub issues](https://img.shields.io/github/issues/matebence/parcels-service)](https://github.com/matebence/parcels-service/issues) [![GitHub forks](https://img.shields.io/github/forks/matebence/parcels-service)](https://github.com/matebence/parcels-service/network) [![GitHub stars](https://img.shields.io/github/stars/matebence/parcels-service)](https://github.com/matebence/parcels-service/stargazers)
 
 ## place-service
 
-Places service for Blesk microservis application. Docs can be found [here](https://github.com/matebence/app-blesk/blob/develop/services_rest_docs/place_service_docs.pdf). <br/>
+Places service for Blesk **microservice** application. [Docs](https://github.com/matebence/app-blesk/blob/develop/services_rest_docs/place_service_docs.pdf). <br/>
 [![Build Status](https://travis-ci.org/matebence/place-service.svg?branch=develop)](https://travis-ci.org/matebence/place-service) [![GitHub issues](https://img.shields.io/github/issues/matebence/places-service)](https://github.com/matebence/places-service/issues) [![GitHub forks](https://img.shields.io/github/forks/matebence/places-service)](https://github.com/matebence/places-service/network) [![GitHub stars](https://img.shields.io/github/stars/matebence/places-service)](https://github.com/matebence/places-service/stargazers)
 
 ## account-service
 
-Account service for Blesk microservis application. Docs can be found [here](https://github.com/matebence/app-blesk/blob/develop/services_rest_docs/account_service_docs.pdf). <br/>
+Account service for Blesk **microservice** application. [Docs](https://github.com/matebence/app-blesk/blob/develop/services_rest_docs/account_service_docs.pdf). <br/>
 [![Build Status](https://travis-ci.org/matebence/account-service.svg?branch=develop)](https://travis-ci.org/matebence/account-service) [![GitHub issues](https://img.shields.io/github/issues/matebence/account-service)](https://github.com/matebence/account-service/issues) [![GitHub forks](https://img.shields.io/github/forks/matebence/account-service)](https://github.com/matebence/account-service/network) [![GitHub stars](https://img.shields.io/github/stars/matebence/account-service)](https://github.com/matebence/account-service/stargazers)
 
 ## user-service
 
-User service for Blesk microservis application. Docs can be found [here](https://github.com/matebence/app-blesk/blob/develop/services_rest_docs/user_service_docs.pdf). <br/>
+User service for Blesk **microservice** application. [Docs](https://github.com/matebence/app-blesk/blob/develop/services_rest_docs/user_service_docs.pdf). <br/>
 [![Build Status](https://travis-ci.org/matebence/user-service.svg?branch=develop)](https://travis-ci.org/matebence/user-service) [![GitHub issues](https://img.shields.io/github/issues/matebence/user-service)](https://github.com/matebence/user-service/issues) [![GitHub forks](https://img.shields.io/github/forks/matebence/user-service)](https://github.com/matebence/user-service/network) [![GitHub stars](https://img.shields.io/github/stars/matebence/user-service)](https://github.com/matebence/user-service/stargazers)
 
 ## messaging-service
 
-Messaging service for Blesk microservis application. Docs can be found [here](https://github.com/matebence/app-blesk/blob/develop/services_rest_docs/messaging_service_docs.pdf). <br/>
+Messaging service for Blesk **microservice** application. [Docs](https://github.com/matebence/app-blesk/blob/develop/services_rest_docs/messaging_service_docs.pdf). <br/>
 [![Build Status](https://travis-ci.org/matebence/messaging-service.svg?branch=develop)](https://travis-ci.org/matebence/messaging-service) [![GitHub issues](https://img.shields.io/github/issues/matebence/messaging-service)](https://github.com/matebence/messaging-service/issues) [![GitHub forks](https://img.shields.io/github/forks/matebence/messaging-service)](https://github.com/matebence/messaging-service/network) [![GitHub stars](https://img.shields.io/github/stars/matebence/messaging-service)](https://github.com/matebence/messaging-service/stargazers)
 
 ## authorization-server
 
-Authorization server for Blesk microservis application. Docs can be found [here](https://oauthlib.readthedocs.io/en/latest/oauth2/grants/jwt.html) and API docs [here](https://github.com/matebence/app-blesk/blob/develop/services_rest_docs/authorization_server_docs.pdf). <br/>
+Authorization server for Blesk **microservice** application. [Docs](https://oauthlib.readthedocs.io/en/latest/oauth2/grants/jwt.html) and [API Docs](https://github.com/matebence/app-blesk/blob/develop/services_rest_docs/authorization_server_docs.pdf). <br/>
 [![Build Status](https://travis-ci.org/matebence/authorization-server.svg?branch=develop)](https://travis-ci.org/matebence/authorization-server) [![GitHub issues](https://img.shields.io/github/issues/matebence/authorization-server)](https://github.com/matebence/authorization-server/issues) [![GitHub forks](https://img.shields.io/github/forks/matebence/authorization-server)](https://github.com/matebence/authorization-server/network) [![GitHub stars](https://img.shields.io/github/stars/matebence/authorization-server)](https://github.com/matebence/authorization-server/stargazers)
-
-## config-server
-
-Config server for Blesk microservis application. Docs can be found [here](https://cloud.spring.io/spring-cloud-config/reference/html/). <br/>
-[![Build Status](https://travis-ci.org/matebence/config-server.svg?branch=develop)](https://travis-ci.org/matebence/config-server) [![GitHub issues](https://img.shields.io/github/issues/matebence/config-server)](https://github.com/matebence/config-server/issues) [![GitHub forks](https://img.shields.io/github/forks/matebence/config-server)](https://github.com/matebence/config-server/network) [![GitHub stars](https://img.shields.io/github/stars/matebence/config-server)](https://github.com/matebence/config-server/stargazers)
 
 ## gateway-server
 
-Gateway server for Blesk microservis application. Docs can be found [here](https://cloud.spring.io/spring-cloud-netflix/multi/multi__router_and_filter_zuul.html). <br/>
+Gateway server for Blesk **microservice** application. [API Docs](https://cloud.spring.io/spring-cloud-netflix/multi/multi__router_and_filter_zuul.html) and [API Docs](https://github.com/matebence/app-blesk/blob/develop/services_rest_docs/gateway_server_docs.pdf). <br/>
 [![Build Status](https://travis-ci.org/matebence/gateway-server.svg?branch=develop)](https://travis-ci.org/matebence/gateway-server) [![GitHub issues](https://img.shields.io/github/issues/matebence/gateway-server)](https://github.com/matebence/gateway-server/issues) [![GitHub forks](https://img.shields.io/github/forks/matebence/gateway-server)](https://github.com/matebence/gateway-server/network) [![GitHub stars](https://img.shields.io/github/stars/matebence/gateway-server)](https://github.com/matebence/gateway-server/stargazers)
+
+## config-server
+
+Config server for Blesk **microservice** application. [API Docs](https://cloud.spring.io/spring-cloud-config/reference/html/). <br/>
+[![Build Status](https://travis-ci.org/matebence/config-server.svg?branch=develop)](https://travis-ci.org/matebence/config-server) [![GitHub issues](https://img.shields.io/github/issues/matebence/config-server)](https://github.com/matebence/config-server/issues) [![GitHub forks](https://img.shields.io/github/forks/matebence/config-server)](https://github.com/matebence/config-server/network) [![GitHub stars](https://img.shields.io/github/stars/matebence/config-server)](https://github.com/matebence/config-server/stargazers)
 
 ## naming-server
 
-Naming server for Blesk microservis application. Docs can be found [here](https://cloud.spring.io/spring-cloud-netflix/multi/multi_spring-cloud-eureka-server.html). <br/>
+Naming server for Blesk **microservice** application. [API Docs](https://cloud.spring.io/spring-cloud-netflix/multi/multi_spring-cloud-eureka-server.html). <br/>
 [![Build Status](https://travis-ci.org/matebence/naming-server.svg?branch=develop)](https://travis-ci.org/matebence/naming-server) [![GitHub issues](https://img.shields.io/github/issues/matebence/naming-server)](https://github.com/matebence/naming-server/issues) [![GitHub forks](https://img.shields.io/github/forks/matebence/naming-server)](https://github.com/matebence/naming-server/network) [![GitHub stars](https://img.shields.io/github/stars/matebence/naming-server)](https://github.com/matebence/naming-server/stargazers)
 
 ## tracking-server
 
-Tracking server for Blesk microservis application. Docs can be found [here](https://zipkin.io/pages/quickstart.html).<br/>
+Tracking server for Blesk **microservice** application. [API Docs](https://zipkin.io/pages/quickstart.html).<br/>
 [![Build Status](https://travis-ci.org/openzipkin/zipkin.svg?branch=master)](https://travis-ci.org/openzipkin/zipkin) [![GitHub issues](https://img.shields.io/github/issues/matebence/tracking-server)](https://github.com/matebence/tracking-server/issues) [![GitHub forks](https://img.shields.io/github/forks/matebence/tracking-server)](https://github.com/matebence/tracking-server/network) [![GitHub stars](https://img.shields.io/github/stars/matebence/tracking-server)](https://github.com/matebence/tracking-server/stargazers)
 
-# Used technologies
+# Project is build up on technologies like
 
 - Spring Cloud Config server,
-- Load Balancing with Ribbon, Feign and resilient
+- Load Balancing with Ribbon, Feign and Resilient
 - Naming Server with Eureka
 - Fault Tolerance with Hystrix
 - API Gateway with Zuul
@@ -81,8 +81,16 @@ Tracking server for Blesk microservis application. Docs can be found [here](http
 - RabbitMQ - service to service communication
 - Websocket - real time communication
 - Databases - MySQL, PostgreSQL, MongoDB, Redis
+- ORM - Hibernate, Sequelize
+- ODM - Mongoose
+- Spring Data, JPA, Criteria API, JPQL
 - Frontend - React, Vue, Angular
 - Backend - NodeJs, Java Spring
+
+# Possible feature improvments
+- Securing application via Keycloak
+- Using Kong or Spring Cloud Gateway as gateway-server (Native websocket support)
+- Doing microservices with JHipster
 
 # Network
 |Services   			|Subnet - Gateway  	          |Front-tier(IPv4Address) |Back-tier(IPv4Address)|
@@ -113,36 +121,37 @@ Tracking server for Blesk microservis application. Docs can be found [here](http
 |`rabbitmq-panel`   	|192.168.0.0/20 - 192.168.0.1 |192.168.0.3/20          |000.000.0.0/00        |
 |`mailhog-panel`   		|192.168.0.0/20 - 192.168.0.1 |192.168.0.2/20          |000.000.0.0/00        |
 
+
 # Ports
-|                |Service name                   |Port                         |Programing language          |Database          	|
-|----------------|-------------------------------|-----------------------------|-----------------------------|----------------------|
-|App	         |`landing-bootstrap`            |4100		         		   |JavaScript	         		 |-			     	    |
-|App      		 |`pwa-react`		             |4200         				   |JavaScript	         		 |-     			    |
-|App             |`web-vue`      		         |4300      		   		   |JavaScript	         		 |-     	    		|
-|App  	         |`admin-angular`                |4400		         		   |JavaScript	         		 |-     	    		|
-|Service         |`place-service`                |5000 - 5100         		   |JavaScript	         		 |-     	    		|
-|Service         |`vehicle-service`              |5200 - 5300         		   |JavaScript	         		 |-   	    			|
-|Service         |`warehouse-service`            |5400 - 5500         		   |JavaScript	         		 |Mongo   	     	    |
-|Service         |`shipment-service`             |5600 - 5700         		   |JavaScript	         		 |Mongo, Redis     	    |
-|Service         |`parcel-service`               |5800 - 5900         		   |JavaScript	         		 |PostgreSQL, Redis	    |
-|Service         |`account-service`              |7000 - 7100         		   |Java		         		 |PostgreSQL, RabbitMQ	|
-|Service         |`user-service`         	     |7200 - 7300         		   |Java		         		 |MySQL, Redis     	    |
-|Service         |`messaging-service`         	 |7400 - 7500         		   |Java		         		 |Mongo	         	    |
-|Server          |`authorization-server`         |9090          			   |Java		         		 |RabbitMQ	         	|
-|Server          |`config-server`				 |8888						   |Java		         		 |GitHub       	        |
-|Server          |`gateway-server`				 |8765                         |Java		         		 |-	         	        |
-|Server          |`naming-server`				 |8761                         |Java		         		 |-	         	        |
-|Server          |`tracking-server`				 |9411                         |Java		         		 |RabbitMQ     	        |
-|Database		 |`postgresql`					 |5432                         |-			         		 |-	         	        |
-|Database		 |`mysql`						 |3306                         |-			         		 |-	         	        |
-|Database		 |`redis`						 |6379                         |-			         		 |-	         	        |
-|Database		 |`mongo`						 |27017                        |-			         		 |-	         	        |
-|Message queue   |`rabbitmq`					 |5672                         |-			         		 |-	         	        |
-|Message queue   |`rabbitmq-management`			 |15672						   |-			         		 |-	         	        |
-|Dev tools   	 |`mailhog`						 |1025						   |-			         		 |-	         	        |
-|Dev tools   	 |`mailhog-client`				 |8025						   |-			         		 |-	         	        |
-|Dev tools		 |`adminer`						 |8050						   |-			         		 |-	         	        |
-|Dev tools		 |`jenkins`						 |8080						   |-			         		 |-	         	        |
+|                |Service name                   |Port                         |Programing language    |Framework          |Database              |
+|----------------|-------------------------------|-----------------------------|-----------------------|-------------------|----------------------|
+|App	         |`landing-bootstrap`            |4100		         		   |JavaScript    		   |jQuery, Bootstrap  |-         	          |
+|App      		 |`pwa-react`		             |4200         				   |JavaScript     		   |React              |-    			      |
+|App             |`web-vue`      		         |4300      		   		   |JavaScript       	   |Vue                |-     	    		  |
+|App  	         |`admin-angular`                |4400		         		   |JavaScript 		       |Angular            |-     	    		  |
+|Service         |`place-service`                |5000 - 5100         		   |JavaScript 		       |Express.js         |MySQL, Redis    	  |
+|Service         |`vehicle-service`              |5200 - 5300         		   |JavaScript 		       |Express.js         |Mongo, Redis 		  |
+|Service         |`warehouse-service`            |5400 - 5500         		   |JavaScript 		       |Express.js         |Mongo   	     	  |
+|Service         |`shipment-service`             |5600 - 5700         		   |JavaScript 		       |Express.js         |Mongo, Redis     	  |
+|Service         |`parcel-service`               |5800 - 5900         		   |JavaScript 		       |Express.js         |PostgreSQL, Redis	  |
+|Service         |`account-service`              |7000 - 7100         		   |Java         		   |Spring Boot        |PostgreSQL, RabbitMQ  |
+|Service         |`user-service`         	     |7200 - 7300         		   |Java         		   |Spring Boot        |MySQL, Redis     	  |
+|Service         |`messaging-service`         	 |7400 - 7500         		   |Java         		   |Spring Boot        |Mongo	         	  |
+|Server          |`authorization-server`         |9090          			   |Java         		   |Spring Boot        |RabbitMQ	          |
+|Server          |`config-server`				 |8888						   |Java         		   |Spring Boot        |GitHub       	      |
+|Server          |`gateway-server`				 |8765                         |Java        		   |Spring Boot        |-	         	      |
+|Server          |`naming-server`				 |8761                         |Java         		   |Spring Boot        |-	         	      |
+|Server          |`tracking-server`				 |9411                         |Java        		   |Spring Boot        |RabbitMQ     	      |
+|Database		 |`postgresql`					 |5432                         |-			           |                   |-	         	      |
+|Database		 |`mysql`						 |3306                         |-			           |                   |-	         	      |
+|Database		 |`redis`						 |6379                         |-			           |                   |-	         	      |
+|Database		 |`mongo`						 |27017                        |-			           |                   |-	         	      |
+|Message queue   |`rabbitmq`					 |5672                         |-			           |                   |-	         	      |
+|Message queue   |`rabbitmq-management`			 |15672						   |-			           |                   |-	         	      |
+|Dev tools   	 |`mailhog`						 |1025						   |-			           |                   |-	         	      |
+|Dev tools   	 |`mailhog-client`				 |8025						   |-			           |                   |-	         	      |
+|Dev tools		 |`adminer`						 |8050						   |-			           |                   |-	         	      |
+|Dev tools		 |`jenkins`						 |8080						   |-			           |                   |-	         	      |
 
 # Application acces
 |Role            |Username 		                 |Password                     |
@@ -278,31 +287,32 @@ Tracking server for Blesk microservis application. Docs can be found [here](http
 	MdBBS9yzACahpcZm6x_mX-9jp1elaIO4Yty-glIFFqb5EjBm6v
 	0DvDN_PE5iBVXyk3mNbX6xGk_lQ7kyivlLBVyy1cxeufN6qy8Q
 
-## All other API key and configurations are listed here
+## List of third party APIs
 - **Stripe** API - payment
 - **Firebase** API - push notifications
+- **IP-API** API - location
+- **IPIFY** API - IPv4 address
 - **HERE** API - maps
-> [All API keys are listed HERE](https://drive.google.com/file/d/11cycT6jk5CE-6RIjQULGIbjm_MgmUp7w/view?usp=sharing)
+> API keys are stored on [Google Drive](https://drive.google.com/file/d/11cycT6jk5CE-6RIjQULGIbjm_MgmUp7w/view?usp=sharing)
 
-## Server configurations
-
-> All other configurations are listed here [Spring Cloud Config Server - config repo](https://github.com/matebence/config-repo) or in [Docker compose .yml file](https://github.com/matebence/app-blesk/blob/develop/docker-compose.yml)
+## Server configuration and startup file
+> The server config files can be found [here](https://github.com/matebence/config-repo) and the strartup file is stored in a [Docker compose .yml file](https://github.com/matebence/app-blesk/blob/develop/docker-compose.yml)
 
 ## CORS
-> CORS policy definition can be found here [Spring Zuul Gateway Server](https://github.com/matebence/gateway-server/blob/develop/src/main/java/com/blesk/gatewayserver/Config/Security.java) and here [gateway-server .yml config file](https://github.com/matebence/config-repo/blob/master/gateway-server-prod.yml)
+> CORS policy definition can be found here [gateway-server.yml file](https://github.com/matebence/config-repo/blob/develop/gateway-server-prod.yml) 
 
 ## Postman scripts
 - [vehicle-service](https://drive.google.com/file/d/1TWbRTDk5WWb5AwOJWL_TrQ3yh-iehq6j/view?usp=sharing)
 - [warehouse-service](https://drive.google.com/file/d/1hfsMgcx7P9PvAjFcw4KBwk1_UKRLxPkK/view?usp=sharing)
 - [shipment-service](https://drive.google.com/file/d/1_lbE9rdetMKaSCEhqM8CPVa4sTJH83qE/view?usp=sharing)
-- [parcel-service](https://drive.google.com/file/d/1Hgb2mMym3HH0gD_eamt8O24Tx_QE2IDm/view?usp=sharing)
-- [place-service](https://drive.google.com/file/d/1GqUJ8xM1xANx5jC_hFG2NOL80YdDaliC/view?usp=sharing)
-- [account-service](https://drive.google.com/file/d/1eoKSg40w2x5tzYUX_ORQqe7vP73zCoeg/view?usp=sharing)
-- [user-service](https://drive.google.com/file/d/199a4_r-wRO8GVBEWMdL49_RaVMYOcT-G/view?usp=sharing)
+- [parcel-service](https://drive.google.com/file/d/1yZcsFg98CovXzt6sKcOQC-OojHFFnuMV/view?usp=sharing)
+- [place-service](https://drive.google.com/file/d/14DcosKDHJZtainss9BKsB8-MisRV2T2r/view?usp=sharing)
+- [account-service](https://drive.google.com/file/d/1uPFuTxqVx071qsGKHGH9uX3LkQBqSDwS/view?usp=sharing)
+- [user-service](https://drive.google.com/file/d/1F3giwJDdQ9j6al0OQRqle-O4xaNf9NGd/view?usp=sharing)
 - [messaging-service](https://drive.google.com/file/d/16Mo-6GHVP-7epnbJnx41eJXSixid-z__/view?usp=sharing)
 - [authorization-server](https://drive.google.com/file/d/1Y6eciLNmqpkepFgUXM5LroJ_Il7qGI-4/view?usp=sharing)
 
-## Ready to use docker images can be found here
+## Docker images 
 - [admin-angular](https://hub.docker.com/repository/docker/matebence/app-blesk_admin-angular)
 - [web-vue](https://hub.docker.com/repository/docker/matebence/app-blesk_web-vue)
 - [pwa-react](https://hub.docker.com/repository/docker/matebence/app-blesk_pwa-react)
@@ -326,14 +336,22 @@ Tracking server for Blesk microservis application. Docs can be found [here](http
 - [postgres-database](https://hub.docker.com/repository/docker/matebence/app-blesk_postgres-database)
 - [rabbit-mq](https://hub.docker.com/repository/docker/matebence/app-blesk_rabbit-mq)
 
+## Invoice example
+> Invoice [eb5377322765cde00ebb8986e65430ea.pdf](https://github.com/matebence/app-blesk/blob/develop/examples/eb5377322765cde00ebb8986e65430ea.pdf)
 ## App redirects
 > ![App redirect flow](https://github.com/matebence/app-blesk/blob/develop/images/app_redirect_flow.png)
-
+# List of email notifications
+> ![Mailhog dashboard](https://github.com/matebence/app-blesk/blob/develop/images/mailhog_dasboard.png)
 # Jenkins dashboard
 > ![Jenkins dashboard](https://github.com/matebence/app-blesk/blob/develop/images/jenkins_dashboard.jpg)
 # Spring Eureka
 > ![Eureka dashboard](https://github.com/matebence/app-blesk/blob/develop/images/eureka_dashboard.jpg)
 # Microservices network visualization(with Zipkin)
 > ![Zipkin dashboard](https://github.com/matebence/app-blesk/blob/develop/images/zipkin_dashboard.jpg)
+# Caching strategy visualization
+> ![Caching strategy](https://github.com/matebence/app-blesk/blob/develop/images/redis_cache_strategy.png)
+# Continuous integration and continuous delivery illustration
+> ![Continuous integration and continuous delivery](https://github.com/matebence/app-blesk/blob/develop/images/ci_cd_illustration.png)
 # Application UI screenshoots
+> ## landing-boostrap
 > ![Landing bootstrap](https://github.com/matebence/app-blesk/blob/develop/images/landing-bootstrap.gif)
