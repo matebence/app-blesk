@@ -87,11 +87,11 @@ Tracking server for Blesk **microservice** application. [API Docs](https://zipki
 - Frontend - React, Vue, Angular
 - Backend - NodeJs, Java Spring
 
-# Possible feature improvments
+# Possible future improvements
 - Securing application via Keycloak
 - Using Kong or Spring Cloud Gateway as gateway-server (Native websocket support)
 - Doing microservices with JHipster
-
+- Creating PWA react-app
 
 # Network
 |Services   			|Subnet - Gateway  	          |Front-tier(IPv4Address) |Back-tier(IPv4Address)|
@@ -351,8 +351,8 @@ Tracking server for Blesk **microservice** application. [API Docs](https://zipki
 > ![Zipkin dashboard](https://github.com/matebence/app-blesk/blob/master/images/zipkin_dashboard.jpg)
 # Caching strategy visualization
 > ![Caching strategy](https://github.com/matebence/app-blesk/blob/master/images/redis_cache_strategy.png)
-# Continuous integration and continuous delivery illustration
-> ![Continuous integration and continuous delivery](https://github.com/matebence/app-blesk/blob/master/images/ci_cd_illustration.jpg)
+# CI/CD illustration
+> ![CI/CD illustration](https://github.com/matebence/app-blesk/blob/master/images/ci_cd_illustration.jpg)
 # Application UI screenshoots
 > ## landing-boostrap
 > ![Landing bootstrap](https://github.com/matebence/app-blesk/blob/master/images/landing-bootstrap.gif)
