@@ -46,15 +46,15 @@ Messaging service for Blesk **microservice** application. [Docs](https://github.
 Authorization server for Blesk **microservice** application. [Docs](https://oauthlib.readthedocs.io/en/latest/oauth2/grants/jwt.html) and [API Docs](https://github.com/matebence/app-blesk/blob/master/services_rest_docs/authorization_server_docs.pdf). <br/>
 [![Build Status](https://travis-ci.org/matebence/authorization-server.svg?branch=master)](https://travis-ci.org/matebence/authorization-server) [![GitHub issues](https://img.shields.io/github/issues/matebence/authorization-server)](https://github.com/matebence/authorization-server/issues) [![GitHub forks](https://img.shields.io/github/forks/matebence/authorization-server)](https://github.com/matebence/authorization-server/network) [![GitHub stars](https://img.shields.io/github/stars/matebence/authorization-server)](https://github.com/matebence/authorization-server/stargazers)
 
+## gateway-server
+
+Gateway server for Blesk **microservice** application. [API Docs](https://cloud.spring.io/spring-cloud-netflix/multi/multi__router_and_filter_zuul.html) and [API Docs](https://github.com/matebence/app-blesk/blob/master/services_rest_docs/gateway_server_docs.pdf). <br/>
+[![Build Status](https://travis-ci.org/matebence/gateway-server.svg?branch=master)](https://travis-ci.org/matebence/gateway-server) [![GitHub issues](https://img.shields.io/github/issues/matebence/gateway-server)](https://github.com/matebence/gateway-server/issues) [![GitHub forks](https://img.shields.io/github/forks/matebence/gateway-server)](https://github.com/matebence/gateway-server/network) [![GitHub stars](https://img.shields.io/github/stars/matebence/gateway-server)](https://github.com/matebence/gateway-server/stargazers)
+
 ## config-server
 
 Config server for Blesk **microservice** application. [API Docs](https://cloud.spring.io/spring-cloud-config/reference/html/). <br/>
 [![Build Status](https://travis-ci.org/matebence/config-server.svg?branch=master)](https://travis-ci.org/matebence/config-server) [![GitHub issues](https://img.shields.io/github/issues/matebence/config-server)](https://github.com/matebence/config-server/issues) [![GitHub forks](https://img.shields.io/github/forks/matebence/config-server)](https://github.com/matebence/config-server/network) [![GitHub stars](https://img.shields.io/github/stars/matebence/config-server)](https://github.com/matebence/config-server/stargazers)
-
-## gateway-server
-
-Gateway server for Blesk **microservice** application. [API Docs](https://cloud.spring.io/spring-cloud-netflix/multi/multi__router_and_filter_zuul.html). <br/>
-[![Build Status](https://travis-ci.org/matebence/gateway-server.svg?branch=master)](https://travis-ci.org/matebence/gateway-server) [![GitHub issues](https://img.shields.io/github/issues/matebence/gateway-server)](https://github.com/matebence/gateway-server/issues) [![GitHub forks](https://img.shields.io/github/forks/matebence/gateway-server)](https://github.com/matebence/gateway-server/network) [![GitHub stars](https://img.shields.io/github/stars/matebence/gateway-server)](https://github.com/matebence/gateway-server/stargazers)
 
 ## naming-server
 
@@ -86,6 +86,12 @@ Tracking server for Blesk **microservice** application. [API Docs](https://zipki
 - Spring Data, JPA, Criteria API, JPQL
 - Frontend - React, Vue, Angular
 - Backend - NodeJs, Java Spring
+
+# Possible feature improvments
+- Securing application via Keycloak
+- Using Kong or Spring Cloud Gateway as gateway-server (Native websocket support)
+- Doing microservices with JHipster
+
 
 # Network
 |Services   			|Subnet - Gateway  	          |Front-tier(IPv4Address) |Back-tier(IPv4Address)|
@@ -345,6 +351,8 @@ Tracking server for Blesk **microservice** application. [API Docs](https://zipki
 > ![Zipkin dashboard](https://github.com/matebence/app-blesk/blob/master/images/zipkin_dashboard.jpg)
 # Caching strategy visualization
 > ![Caching strategy](https://github.com/matebence/app-blesk/blob/master/images/redis_cache_strategy.png)
+# Continuous integration and continuous delivery illustration
+> ![Continuous integration and continuous delivery](https://github.com/matebence/app-blesk/blob/master/images/ci_cd_illustration.png)
 # Application UI screenshoots
 > ## landing-boostrap
 > ![Landing bootstrap](https://github.com/matebence/app-blesk/blob/master/images/landing-bootstrap.gif)
