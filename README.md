@@ -48,7 +48,7 @@ Authorization server for Blesk **microservice** application. [Docs](https://oaut
 
 ## gateway-server
 
-Gateway server for Blesk **microservice** application. [API Docs](https://cloud.spring.io/spring-cloud-netflix/multi/multi__router_and_filter_zuul.html) and [API Docs](https://github.com/matebence/app-blesk/blob/master/services_rest_docs/gateway_server_docs.pdf). <br/>
+Gateway server for Blesk **microservice** application. [Docs](https://cloud.spring.io/spring-cloud-netflix/multi/multi__router_and_filter_zuul.html) and [API Docs](https://github.com/matebence/app-blesk/blob/master/services_rest_docs/gateway_server_docs.pdf). <br/>
 [![Build Status](https://travis-ci.org/matebence/gateway-server.svg?branch=master)](https://travis-ci.org/matebence/gateway-server) [![GitHub issues](https://img.shields.io/github/issues/matebence/gateway-server)](https://github.com/matebence/gateway-server/issues) [![GitHub forks](https://img.shields.io/github/forks/matebence/gateway-server)](https://github.com/matebence/gateway-server/network) [![GitHub stars](https://img.shields.io/github/stars/matebence/gateway-server)](https://github.com/matebence/gateway-server/stargazers)
 
 ## config-server
@@ -352,7 +352,7 @@ Tracking server for Blesk **microservice** application. [API Docs](https://zipki
 # Caching strategy visualization
 > ![Caching strategy](https://github.com/matebence/app-blesk/blob/master/images/redis_cache_strategy.png)
 # Continuous integration and continuous delivery illustration
-> ![Continuous integration and continuous delivery](https://github.com/matebence/app-blesk/blob/master/images/ci_cd_illustration.png)
+> ![Continuous integration and continuous delivery](https://github.com/matebence/app-blesk/blob/master/images/ci_cd_illustration.jpg)
 # Application UI screenshoots
 > ## landing-boostrap
 > ![Landing bootstrap](https://github.com/matebence/app-blesk/blob/master/images/landing-bootstrap.gif)
