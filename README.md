@@ -48,7 +48,7 @@ Authorization server for Blesk **microservice** application. [Docs](https://oaut
 
 ## gateway-server
 
-Gateway server for Blesk **microservice** application. [API Docs](https://cloud.spring.io/spring-cloud-netflix/multi/multi__router_and_filter_zuul.html) and [API Docs](https://github.com/matebence/app-blesk/blob/develop/services_rest_docs/gateway_server_docs.pdf). <br/>
+Gateway server for Blesk **microservice** application. [Docs](https://cloud.spring.io/spring-cloud-netflix/multi/multi__router_and_filter_zuul.html) and [API Docs](https://github.com/matebence/app-blesk/blob/develop/services_rest_docs/gateway_server_docs.pdf). <br/>
 [![Build Status](https://travis-ci.org/matebence/gateway-server.svg?branch=develop)](https://travis-ci.org/matebence/gateway-server) [![GitHub issues](https://img.shields.io/github/issues/matebence/gateway-server)](https://github.com/matebence/gateway-server/issues) [![GitHub forks](https://img.shields.io/github/forks/matebence/gateway-server)](https://github.com/matebence/gateway-server/network) [![GitHub stars](https://img.shields.io/github/stars/matebence/gateway-server)](https://github.com/matebence/gateway-server/stargazers)
 
 ## config-server
@@ -87,10 +87,11 @@ Tracking server for Blesk **microservice** application. [API Docs](https://zipki
 - Frontend - React, Vue, Angular
 - Backend - NodeJs, Java Spring
 
-# Possible feature improvments
+# Possible future improvements
 - Securing application via Keycloak
 - Using Kong or Spring Cloud Gateway as gateway-server (Native websocket support)
 - Doing microservices with JHipster
+- Creating PWA react-app
 
 # Network
 |Services   			|Subnet - Gateway  	          |Front-tier(IPv4Address) |Back-tier(IPv4Address)|
@@ -350,8 +351,8 @@ Tracking server for Blesk **microservice** application. [API Docs](https://zipki
 > ![Zipkin dashboard](https://github.com/matebence/app-blesk/blob/develop/images/zipkin_dashboard.jpg)
 # Caching strategy visualization
 > ![Caching strategy](https://github.com/matebence/app-blesk/blob/develop/images/redis_cache_strategy.png)
-# Continuous integration and continuous delivery illustration
-> ![Continuous integration and continuous delivery](https://github.com/matebence/app-blesk/blob/develop/images/ci_cd_illustration.png)
+# CI/CD illustration
+> ![CI/CD illustration](https://github.com/matebence/app-blesk/blob/develop/images/ci_cd_illustration.jpg)
 # Application UI screenshoots
 > ## landing-boostrap
 > ![Landing bootstrap](https://github.com/matebence/app-blesk/blob/develop/images/landing-bootstrap.gif)
