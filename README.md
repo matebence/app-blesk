@@ -352,7 +352,7 @@ Tracking server for Blesk **microservice** application. [API Docs](https://zipki
 # Proxy illustration
 > ![App proxy flow](https://github.com/matebence/app-blesk/blob/master/images/app_proxy_flow.png)
 # CI/CD illustration
-> ![CI/CD illustration](https://github.com/matebence/app-blesk/blob/master/images/ci_cd_illustration.jpg)
+> ![CI/CD illustration](https://github.com/matebence/app-blesk/blob/master/images/ci_cd_illustration.png)
 # Application UI screenshoots
 > ## landing-boostrap (home-page)
 > ![Landing bootstrap](https://github.com/matebence/app-blesk/blob/master/images/landing-bootstrap.gif)
