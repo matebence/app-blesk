@@ -339,8 +339,8 @@ Tracking server for Blesk **microservice** application. [API Docs](https://zipki
 
 ## Invoice example
 > Invoice [eb5377322765cde00ebb8986e65430ea.pdf](https://github.com/matebence/app-blesk/blob/master/examples/eb5377322765cde00ebb8986e65430ea.pdf)
-## App redirects
-> ![App redirect flow](https://github.com/matebence/app-blesk/blob/master/images/app_redirect_flow.png)
+## App proxy
+> ![App proxy flow](https://github.com/matebence/app-blesk/blob/master/images/app_proxy_flow.png)
 # List of email notifications
 > ![Mailhog dashboard](https://github.com/matebence/app-blesk/blob/master/images/mailhog_dasboard.png)
 # Jenkins dashboard
