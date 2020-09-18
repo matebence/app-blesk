@@ -337,22 +337,22 @@ Tracking server for Blesk **microservice** application. [API Docs](https://zipki
 - [postgres-database](https://hub.docker.com/repository/docker/matebence/app-blesk_postgres-database)
 - [rabbit-mq](https://hub.docker.com/repository/docker/matebence/app-blesk_rabbit-mq)
 
-## Invoice example
+# Invoice example
 > Invoice [eb5377322765cde00ebb8986e65430ea.pdf](https://github.com/matebence/app-blesk/blob/master/examples/eb5377322765cde00ebb8986e65430ea.pdf)
-## App proxy
-> ![App proxy flow](https://github.com/matebence/app-blesk/blob/master/images/app_proxy_flow.png)
 # List of email notifications
 > ![Mailhog dashboard](https://github.com/matebence/app-blesk/blob/master/images/mailhog_dasboard.png)
 # Jenkins dashboard
 > ![Jenkins dashboard](https://github.com/matebence/app-blesk/blob/master/images/jenkins_dashboard.jpg)
-# Spring Eureka
+# Eureka dashboard
 > ![Eureka dashboard](https://github.com/matebence/app-blesk/blob/master/images/eureka_dashboard.jpg)
-# Microservices network visualization(with Zipkin)
+# Microservices network illustration
 > ![Zipkin dashboard](https://github.com/matebence/app-blesk/blob/master/images/zipkin_dashboard.jpg)
-# Caching strategy visualization
+# Caching strategy illustration
 > ![Caching strategy](https://github.com/matebence/app-blesk/blob/master/images/redis_cache_strategy.png)
+# Proxy illustration
+> ![App proxy flow](https://github.com/matebence/app-blesk/blob/master/images/app_proxy_flow.png)
 # CI/CD illustration
 > ![CI/CD illustration](https://github.com/matebence/app-blesk/blob/master/images/ci_cd_illustration.jpg)
 # Application UI screenshoots
-> ## landing-boostrap
+> ## landing-boostrap (home-page)
 > ![Landing bootstrap](https://github.com/matebence/app-blesk/blob/master/images/landing-bootstrap.gif)
