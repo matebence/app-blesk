@@ -84,6 +84,8 @@ Tracking server for Blesk **microservice** application. [API Docs](https://zipki
 - ORM - Hibernate, Sequelize
 - ODM - Mongoose
 - Spring Data, JPA, Criteria API, JPQL
+- RESTful API (REST API), HATEOAS
+- Template engines: EJS, Thymeleaf
 - Frontend - React, Vue, Angular
 - Backend - NodeJs, Java Spring
 
