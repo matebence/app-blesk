@@ -86,12 +86,13 @@ Tracking server for Blesk **microservice** application. [API Docs](https://zipki
 - Spring Data, JPA, Criteria API, JPQL
 - RESTful API (REST API), HATEOAS
 - Template engines: EJS, Thymeleaf
+- Proxying
 - Frontend - React, Vue, Angular
 - Backend - NodeJs, Java Spring
 
 # Possible future improvements
-- Securing application via Keycloak
 - Using Kong or Spring Cloud Gateway as gateway-server (Native websocket support)
+- Securing application via Keycloak
 - Doing microservices with JHipster
 - Creating PWA react-app
 
