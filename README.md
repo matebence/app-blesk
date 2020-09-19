@@ -3,42 +3,42 @@
 
 ## vehicle-service
 
-Places service for Blesk **microservice** application. [Docs](https://github.com/matebence/app-blesk/blob/develop/services_rest_docs/vehicle_service_docs.pdf). <br/>
+Places service for Blesk **microservice** application. [API Docs](https://github.com/matebence/app-blesk/blob/develop/services_rest_docs/vehicle_service_docs.pdf). <br/>
 [![Build Status](https://travis-ci.org/matebence/vehicle-service.svg?branch=develop)](https://travis-ci.org/matebence/vehicle-service) [![GitHub issues](https://img.shields.io/github/issues/matebence/vehicles-service)](https://github.com/matebence/vehicles-service/issues) [![GitHub forks](https://img.shields.io/github/forks/matebence/vehicles-service)](https://github.com/matebence/vehicles-service/network) [![GitHub stars](https://img.shields.io/github/stars/matebence/vehicles-service)](https://github.com/matebence/vehicles-service/stargazers)
 
 ## warehouse-service
 
-Places service for Blesk **microservice** application. [Docs](https://github.com/matebence/app-blesk/blob/develop/services_rest_docs/warehouse_service_docs.pdf). <br/>
+Places service for Blesk **microservice** application. [API Docs](https://github.com/matebence/app-blesk/blob/develop/services_rest_docs/warehouse_service_docs.pdf). <br/>
 [![Build Status](https://travis-ci.org/matebence/warehouse-service.svg?branch=develop)](https://travis-ci.org/matebence/warehouse-service) [![GitHub issues](https://img.shields.io/github/issues/matebence/warehouses-service)](https://github.com/matebence/warehouses-service/issues) [![GitHub forks](https://img.shields.io/github/forks/matebence/warehouses-service)](https://github.com/matebence/warehouses-service/network) [![GitHub stars](https://img.shields.io/github/stars/matebence/warehouses-service)](https://github.com/matebence/warehouses-service/stargazers)
 
 ## shipment-service
 
-Places service for Blesk **microservice** application. [Docs](https://github.com/matebence/app-blesk/blob/develop/services_rest_docs/shipment_service_docs.pdf). <br/>
+Places service for Blesk **microservice** application. [API Docs](https://github.com/matebence/app-blesk/blob/develop/services_rest_docs/shipment_service_docs.pdf). <br/>
 [![Build Status](https://travis-ci.org/matebence/shipment-service.svg?branch=develop)](https://travis-ci.org/matebence/shipment-service) [![GitHub issues](https://img.shields.io/github/issues/matebence/shipments-service)](https://github.com/matebence/shipments-service/issues) [![GitHub forks](https://img.shields.io/github/forks/matebence/shipments-service)](https://github.com/matebence/shipments-service/network) [![GitHub stars](https://img.shields.io/github/stars/matebence/shipments-service)](https://github.com/matebence/shipments-service/stargazers)
 
 ## parcel-service
 
-Places service for Blesk **microservice** application. [Docs](https://github.com/matebence/app-blesk/blob/develop/services_rest_docs/parcel_service_docs.pdf). <br/>
+Places service for Blesk **microservice** application. [API Docs](https://github.com/matebence/app-blesk/blob/develop/services_rest_docs/parcel_service_docs.pdf). <br/>
 [![Build Status](https://travis-ci.org/matebence/parcel-service.svg?branch=develop)](https://travis-ci.org/matebence/parcel-service) [![GitHub issues](https://img.shields.io/github/issues/matebence/parcels-service)](https://github.com/matebence/parcels-service/issues) [![GitHub forks](https://img.shields.io/github/forks/matebence/parcels-service)](https://github.com/matebence/parcels-service/network) [![GitHub stars](https://img.shields.io/github/stars/matebence/parcels-service)](https://github.com/matebence/parcels-service/stargazers)
 
 ## place-service
 
-Places service for Blesk **microservice** application. [Docs](https://github.com/matebence/app-blesk/blob/develop/services_rest_docs/place_service_docs.pdf). <br/>
+Places service for Blesk **microservice** application. [API Docs](https://github.com/matebence/app-blesk/blob/develop/services_rest_docs/place_service_docs.pdf). <br/>
 [![Build Status](https://travis-ci.org/matebence/place-service.svg?branch=develop)](https://travis-ci.org/matebence/place-service) [![GitHub issues](https://img.shields.io/github/issues/matebence/places-service)](https://github.com/matebence/places-service/issues) [![GitHub forks](https://img.shields.io/github/forks/matebence/places-service)](https://github.com/matebence/places-service/network) [![GitHub stars](https://img.shields.io/github/stars/matebence/places-service)](https://github.com/matebence/places-service/stargazers)
 
 ## account-service
 
-Account service for Blesk **microservice** application. [Docs](https://github.com/matebence/app-blesk/blob/develop/services_rest_docs/account_service_docs.pdf). <br/>
+Account service for Blesk **microservice** application. [API Docs](https://github.com/matebence/app-blesk/blob/develop/services_rest_docs/account_service_docs.pdf). <br/>
 [![Build Status](https://travis-ci.org/matebence/account-service.svg?branch=develop)](https://travis-ci.org/matebence/account-service) [![GitHub issues](https://img.shields.io/github/issues/matebence/account-service)](https://github.com/matebence/account-service/issues) [![GitHub forks](https://img.shields.io/github/forks/matebence/account-service)](https://github.com/matebence/account-service/network) [![GitHub stars](https://img.shields.io/github/stars/matebence/account-service)](https://github.com/matebence/account-service/stargazers)
 
 ## user-service
 
-User service for Blesk **microservice** application. [Docs](https://github.com/matebence/app-blesk/blob/develop/services_rest_docs/user_service_docs.pdf). <br/>
+User service for Blesk **microservice** application. [API Docs](https://github.com/matebence/app-blesk/blob/develop/services_rest_docs/user_service_docs.pdf). <br/>
 [![Build Status](https://travis-ci.org/matebence/user-service.svg?branch=develop)](https://travis-ci.org/matebence/user-service) [![GitHub issues](https://img.shields.io/github/issues/matebence/user-service)](https://github.com/matebence/user-service/issues) [![GitHub forks](https://img.shields.io/github/forks/matebence/user-service)](https://github.com/matebence/user-service/network) [![GitHub stars](https://img.shields.io/github/stars/matebence/user-service)](https://github.com/matebence/user-service/stargazers)
 
 ## messaging-service
 
-Messaging service for Blesk **microservice** application. [Docs](https://github.com/matebence/app-blesk/blob/develop/services_rest_docs/messaging_service_docs.pdf). <br/>
+Messaging service for Blesk **microservice** application. [API Docs](https://github.com/matebence/app-blesk/blob/develop/services_rest_docs/messaging_service_docs.pdf). <br/>
 [![Build Status](https://travis-ci.org/matebence/messaging-service.svg?branch=develop)](https://travis-ci.org/matebence/messaging-service) [![GitHub issues](https://img.shields.io/github/issues/matebence/messaging-service)](https://github.com/matebence/messaging-service/issues) [![GitHub forks](https://img.shields.io/github/forks/matebence/messaging-service)](https://github.com/matebence/messaging-service/network) [![GitHub stars](https://img.shields.io/github/stars/matebence/messaging-service)](https://github.com/matebence/messaging-service/stargazers)
 
 ## authorization-server
@@ -53,17 +53,17 @@ Gateway server for Blesk **microservice** application. [Docs](https://cloud.spri
 
 ## config-server
 
-Config server for Blesk **microservice** application. [API Docs](https://cloud.spring.io/spring-cloud-config/reference/html/). <br/>
+Config server for Blesk **microservice** application. [Docs](https://cloud.spring.io/spring-cloud-config/reference/html/). <br/>
 [![Build Status](https://travis-ci.org/matebence/config-server.svg?branch=develop)](https://travis-ci.org/matebence/config-server) [![GitHub issues](https://img.shields.io/github/issues/matebence/config-server)](https://github.com/matebence/config-server/issues) [![GitHub forks](https://img.shields.io/github/forks/matebence/config-server)](https://github.com/matebence/config-server/network) [![GitHub stars](https://img.shields.io/github/stars/matebence/config-server)](https://github.com/matebence/config-server/stargazers)
 
 ## naming-server
 
-Naming server for Blesk **microservice** application. [API Docs](https://cloud.spring.io/spring-cloud-netflix/multi/multi_spring-cloud-eureka-server.html). <br/>
+Naming server for Blesk **microservice** application. [Docs](https://cloud.spring.io/spring-cloud-netflix/multi/multi_spring-cloud-eureka-server.html). <br/>
 [![Build Status](https://travis-ci.org/matebence/naming-server.svg?branch=develop)](https://travis-ci.org/matebence/naming-server) [![GitHub issues](https://img.shields.io/github/issues/matebence/naming-server)](https://github.com/matebence/naming-server/issues) [![GitHub forks](https://img.shields.io/github/forks/matebence/naming-server)](https://github.com/matebence/naming-server/network) [![GitHub stars](https://img.shields.io/github/stars/matebence/naming-server)](https://github.com/matebence/naming-server/stargazers)
 
 ## tracking-server
 
-Tracking server for Blesk **microservice** application. [API Docs](https://zipkin.io/pages/quickstart.html).<br/>
+Tracking server for Blesk **microservice** application. [Docs](https://zipkin.io/pages/quickstart.html).<br/>
 [![Build Status](https://travis-ci.org/openzipkin/zipkin.svg?branch=master)](https://travis-ci.org/openzipkin/zipkin) [![GitHub issues](https://img.shields.io/github/issues/matebence/tracking-server)](https://github.com/matebence/tracking-server/issues) [![GitHub forks](https://img.shields.io/github/forks/matebence/tracking-server)](https://github.com/matebence/tracking-server/network) [![GitHub stars](https://img.shields.io/github/stars/matebence/tracking-server)](https://github.com/matebence/tracking-server/stargazers)
 
 # Project is build up on technologies like
