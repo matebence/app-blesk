@@ -84,43 +84,46 @@ Tracking server for Blesk **microservice** application. [API Docs](https://zipki
 - ORM - Hibernate, Sequelize
 - ODM - Mongoose
 - Spring Data, JPA, Criteria API, JPQL
+- RESTful API (REST API), HATEOAS
+- Template engines: EJS, Thymeleaf
+- Proxying
 - Frontend - React, Vue, Angular
 - Backend - NodeJs, Java Spring
 
 # Possible future improvements
-- Securing application via Keycloak
 - Using Kong or Spring Cloud Gateway as gateway-server (Native websocket support)
+- Securing application via Keycloak
 - Doing microservices with JHipster
 - Creating PWA react-app
 
 # Network
-|Services   			|Subnet - Gateway  	          |Front-tier(IPv4Address) |Back-tier(IPv4Address)|
-|-----------------------|-----------------------------|------------------------|----------------------|
-|`landing-bootstrap`	|172.31.0.0/16 - 192.168.0.1  |192.168.0.7/20		   |000.000.0.0/00    	  |
-|`pwa-react`			|172.31.0.0/16 - 192.168.0.1  |192.168.0.8/20		   |172.31.0.22/16   	  |
-|`web-vue`				|172.31.0.0/16 - 192.168.0.1  |192.168.0.9/20		   |172.31.0.23/16   	  |
-|`admin-angular`		|172.31.0.0/16 - 192.168.0.1  |192.168.0.10/20		   |172.31.0.24/16   	  |
-|`vehicle-service`		|172.31.0.0/16 - 172.31.0.1   |000.000.0.0/00		   |172.31.0.19/16   	  |
-|`warehouse-service`	|172.31.0.0/16 - 172.31.0.1   |000.000.0.0/00		   |172.31.0.18/16   	  |
-|`shipment-service` 	|172.31.0.0/16 - 172.31.0.1   |000.000.0.0/00		   |172.31.0.17/16   	  |
-|`parcel-service`		|172.31.0.0/16 - 172.31.0.1   |000.000.0.0/00		   |172.31.0.16/16   	  |
-|`place-service`		|172.31.0.0/16 - 172.31.0.1   |000.000.0.0/00		   |172.31.0.15/16   	  |
-|`account-service`		|172.31.0.0/16 - 172.31.0.1   |000.000.0.0/00		   |172.31.0.10/16   	  |
-|`user-service`			|172.31.0.0/16 - 172.31.0.1   |000.000.0.0/00		   |172.31.0.11/16   	  |
-|`messaging-service`	|172.31.0.0/16 - 172.31.0.1   |000.000.0.0/00		   |172.31.0.14/16   	  |
-|`authorization-server` |172.31.0.0/16 - 172.31.0.1   |000.000.0.0/00          |172.31.0.9/16         |
-|`config-server`   		|172.31.0.0/16 - 172.31.0.1   |000.000.0.0/00          |172.31.0.3/16         |
-|`gateway-server`   	|172.31.0.0/16 - 172.31.0.1   |000.000.0.0/00  	       |172.31.0.8/16         |
-|`naming-server`   		|172.31.0.0/16 - 192.168.0.1  |192.168.0.6/20  		   |172.31.0.20/16        |
-|`tracking-server`   	|172.31.0.0/16 - 192.168.0.1  |192.168.0.5/20 	       |172.31.0.12/16        |
-|`postgres-database`   	|172.31.0.0/16 - 172.31.0.1   |000.000.0.0/00          |172.31.0.2/16         |
-|`mysql-database`   	|172.31.0.0/16 - 172.31.0.1   |000.000.0.0/00          |172.31.0.6/16         |
-|`redis-database`   	|172.31.0.0/16 - 172.31.0.1   |000.000.0.0/00          |172.31.0.4/16         |
-|`mongo-database`   	|172.31.0.0/16 - 172.31.0.1   |000.000.0.0/00          |172.31.0.13/16        |
-|`rabbit-message-queue` |172.31.0.0/16 - 172.31.0.1   |000.000.0.0/00          |172.31.0.5/16         |
-|`adminer-panel`   		|192.168.0.0/20 - 192.168.0.1 |192.168.0.4/20          |000.000.0.0/00        |
-|`rabbitmq-panel`   	|192.168.0.0/20 - 192.168.0.1 |192.168.0.3/20          |000.000.0.0/00        |
-|`mailhog-panel`   		|192.168.0.0/20 - 192.168.0.1 |192.168.0.2/20          |000.000.0.0/00        |
+|Services   			|Proxy-tier(IPv4Address) |Front-tier(IPv4Address) |Back-tier(IPv4Address) |
+|-----------------------|------------------------|------------------------|-----------------------|
+|`landing-bootstrap`	|152.61.0.2/30           |192.168.0.7/20		  |000.000.0.0/00    	  |
+|`pwa-react`			|000.000.0.0/00          |192.168.0.8/20		  |172.31.0.22/16   	  |
+|`web-vue`				|000.000.0.0/00          |192.168.0.9/20		  |172.31.0.23/16   	  |
+|`admin-angular`		|000.000.0.0/00          |192.168.0.10/20	      |172.31.0.24/16   	  |
+|`vehicle-service`		|000.000.0.0/00          |000.000.0.0/00		  |172.31.0.19/16   	  |
+|`warehouse-service`	|000.000.0.0/00          |000.000.0.0/00		  |172.31.0.18/16   	  |
+|`shipment-service` 	|000.000.0.0/00          |000.000.0.0/00		  |172.31.0.17/16   	  |
+|`parcel-service`		|000.000.0.0/00          |000.000.0.0/00		  |172.31.0.16/16   	  |
+|`place-service`		|000.000.0.0/00          |000.000.0.0/00		  |172.31.0.15/16   	  |
+|`account-service`		|000.000.0.0/00          |000.000.0.0/00		  |172.31.0.10/16   	  |
+|`user-service`			|000.000.0.0/00          |000.000.0.0/00		  |172.31.0.11/16   	  |
+|`messaging-service`	|000.000.0.0/00          |000.000.0.0/00		  |172.31.0.14/16   	  |
+|`authorization-server` |000.000.0.0/00          |000.000.0.0/00          |172.31.0.9/16          |
+|`config-server`   		|000.000.0.0/00          |000.000.0.0/00          |172.31.0.3/16          |
+|`gateway-server`   	|000.000.0.0/00          |192.168.0.11/20 	      |172.31.0.8/16          |
+|`naming-server`   		|000.000.0.0/00          |192.168.0.6/20  	      |172.31.0.20/16         |
+|`tracking-server`   	|000.000.0.0/00          |192.168.0.5/20 	      |172.31.0.12/16         |
+|`postgres-database`   	|000.000.0.0/00          |000.000.0.0/00          |172.31.0.2/16          |
+|`mysql-database`   	|000.000.0.0/00          |000.000.0.0/00          |172.31.0.6/16          |
+|`redis-database`   	|000.000.0.0/00          |000.000.0.0/00          |172.31.0.4/16          |
+|`mongo-database`   	|000.000.0.0/00          |000.000.0.0/00          |172.31.0.13/16         |
+|`rabbit-message-queue` |000.000.0.0/00          |000.000.0.0/00          |172.31.0.5/16          |
+|`adminer-panel`   		|000.000.0.0/00          |192.168.0.4/20          |000.000.0.0/00         |
+|`rabbitmq-panel`   	|000.000.0.0/00          |192.168.0.3/20          |000.000.0.0/00         |
+|`mailhog-panel`   		|000.000.0.0/00          |192.168.0.2/20          |000.000.0.0/00         |
 
 
 # Ports
@@ -337,22 +340,22 @@ Tracking server for Blesk **microservice** application. [API Docs](https://zipki
 - [postgres-database](https://hub.docker.com/repository/docker/matebence/app-blesk_postgres-database)
 - [rabbit-mq](https://hub.docker.com/repository/docker/matebence/app-blesk_rabbit-mq)
 
-## Invoice example
+# Invoice example
 > Invoice [eb5377322765cde00ebb8986e65430ea.pdf](https://github.com/matebence/app-blesk/blob/develop/examples/eb5377322765cde00ebb8986e65430ea.pdf)
-## App proxy
-> ![App proxy flow](https://github.com/matebence/app-blesk/blob/develop/images/app_proxy_flow.png)
 # List of email notifications
 > ![Mailhog dashboard](https://github.com/matebence/app-blesk/blob/develop/images/mailhog_dasboard.png)
 # Jenkins dashboard
 > ![Jenkins dashboard](https://github.com/matebence/app-blesk/blob/develop/images/jenkins_dashboard.jpg)
-# Spring Eureka
+# Eureka dashboard
 > ![Eureka dashboard](https://github.com/matebence/app-blesk/blob/develop/images/eureka_dashboard.jpg)
-# Microservices network visualization(with Zipkin)
+# Microservices network illustration
 > ![Zipkin dashboard](https://github.com/matebence/app-blesk/blob/develop/images/zipkin_dashboard.jpg)
-# Caching strategy visualization
+# Caching strategy illustration
 > ![Caching strategy](https://github.com/matebence/app-blesk/blob/develop/images/redis_cache_strategy.png)
+# Proxy illustration
+> ![App proxy flow](https://github.com/matebence/app-blesk/blob/develop/images/app_proxy_flow.png)
 # CI/CD illustration
-> ![CI/CD illustration](https://github.com/matebence/app-blesk/blob/develop/images/ci_cd_illustration.jpg)
+> ![CI/CD illustration](https://github.com/matebence/app-blesk/blob/develop/images/ci_cd_illustration.png)
 # Application UI screenshoots
-> ## landing-boostrap
+> ## landing-boostrap (home-page)
 > ![Landing bootstrap](https://github.com/matebence/app-blesk/blob/develop/images/landing-bootstrap.gif)
