@@ -1,5 +1,5 @@
 # Blesk microservice application
-> Blesk **microservice** application
+> ![Blesk logo](https://github.com/matebence/app-blesk/blob/master/images/blesk-default-logo.png)
 
 ## vehicle-service
 
