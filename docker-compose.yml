@@ -71,8 +71,6 @@ services:
       - MANAGEMENT_SERVER=192.168.99.100:4400   
     networks:
       - front-tier
-    depends_on:
-      - config-server
     ports:
       - 4100:4100
 
@@ -266,6 +264,16 @@ services:
       - gateway-server
     expose:
       - 5400
+
+  web-vue:
+    build: ./web-vue
+    container_name: web-vue
+    environment:
+      - PORT=4300
+    networks:
+      - front-tier
+    ports:
+      - 4300:4300
       
   adminer:
     image: adminer
