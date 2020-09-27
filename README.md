@@ -356,7 +356,7 @@ Tracking server for Blesk **microservice** application. [Docs](https://zipkin.io
 
 # Invoice example
 > Invoice [eb5377322765cde00ebb8986e65430ea.pdf](https://github.com/matebence/shipment-service/blob/master/eb5377322765cde00ebb8986e65430ea.pdf)
-# Log file example
+# Log example
 > Log [proxy-server.log](https://github.com/matebence/landing-bootstrap/blob/master/log/proxy-server.log)
 # List of email notifications
 > ![Mailhog dashboard](https://github.com/matebence/app-blesk/blob/master/images/mailhog_dasboard.png)
