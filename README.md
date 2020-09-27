@@ -75,7 +75,6 @@ Tracking server for Blesk **microservice** application. [Docs](https://zipkin.io
 - API Gateway with Zuul
 - Distributed Tracking with Zipkin
 - Request identification with Spring Cloud Sleuth
-- CI - Travis, Jenkins
 - Docker, Docker-compose
 - Postman for API testing
 - RabbitMQ - service to service communication
@@ -83,12 +82,14 @@ Tracking server for Blesk **microservice** application. [Docs](https://zipkin.io
 - Databases - MySQL, PostgreSQL, MongoDB, Redis
 - ORM - Hibernate, Sequelize
 - ODM - Mongoose
+- CI - Travis, Jenkins
+- Proxying
+- Git Flow
 - Spring Data, JPA, Criteria API, JPQL
 - RESTful API (REST API), HATEOAS
 - Template engines: EJS, Thymeleaf
-- Proxying
-- Frontend - React, Vue, Angular
-- Backend - NodeJs, Java Spring
+- React, Vue, Angular
+- NodeJs, Java Spring
 
 # Possible future improvements
 - Using Kong or Spring Cloud Gateway as gateway-server (Native websocket support)
