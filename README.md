@@ -1,5 +1,5 @@
 # Blesk microservice application
-> Blesk **microservice** application
+> ![Blesk logo](https://github.com/matebence/app-blesk/blob/develop/images/blesk-default-logo.png)
 
 ## vehicle-service
 
@@ -99,10 +99,10 @@ Tracking server for Blesk **microservice** application. [Docs](https://zipkin.io
 # Network
 |Services   			|Proxy-tier(IPv4Address) |Front-tier(IPv4Address) |Back-tier(IPv4Address) |
 |-----------------------|------------------------|------------------------|-----------------------|
-|`landing-bootstrap`	|152.61.0.2/30           |192.168.0.7/20		  |000.000.0.0/00    	  |
-|`pwa-react`			|000.000.0.0/00          |192.168.0.8/20		  |172.31.0.22/16   	  |
-|`web-vue`				|000.000.0.0/00          |192.168.0.9/20		  |172.31.0.23/16   	  |
-|`admin-angular`		|000.000.0.0/00          |192.168.0.10/20	      |172.31.0.24/16   	  |
+|`pwa-react`			|000.000.0.0/00          |192.168.0.8/20		  |000.000.0.0/00   	  |
+|`web-vue`				|000.000.0.0/00          |192.168.0.9/20		  |000.000.0.0/00   	  |
+|`admin-angular`		|000.000.0.0/00          |192.168.0.10/20	      |000.000.0.0/00   	  |
+|`landing-bootstrap`	|152.61.0.2/30           |192.168.0.7/20		  |172.31.0.21/16    	  |
 |`vehicle-service`		|000.000.0.0/00          |000.000.0.0/00		  |172.31.0.19/16   	  |
 |`warehouse-service`	|000.000.0.0/00          |000.000.0.0/00		  |172.31.0.18/16   	  |
 |`shipment-service` 	|000.000.0.0/00          |000.000.0.0/00		  |172.31.0.17/16   	  |
@@ -299,8 +299,22 @@ Tracking server for Blesk **microservice** application. [Docs](https://zipkin.io
 - **HERE** API - maps
 > API keys are stored on [Google Drive](https://drive.google.com/file/d/11cycT6jk5CE-6RIjQULGIbjm_MgmUp7w/view?usp=sharing)
 
+## Base Docker images
+- [redis:6.0](https://hub.docker.com/_/redis?tab=tags)
+- [nginx:latest](https://hub.docker.com/_/nginx?tab=tags)
+- [openjdk:8](https://hub.docker.com/_/openjdk?tab=tags)
+- [mysql:5.7](https://hub.docker.com/_/mysql?tab=tags)
+- [adminer:latest](https://hub.docker.com/_/adminer?tab=tags)
+- [postgres:alpine](https://hub.docker.com/_/postgres?tab=tags)
+- [mailhog/mailhog:latest](https://hub.docker.com/r/mailhog/mailhog/tags)
+- [node:10.21.0-jessie](https://hub.docker.com/_/node?tab=tags)
+- [rabbitmq:3.8.3-management](https://hub.docker.com/_/rabbitmq?tab=tags)
+- [mongo:4.0.5](https://hub.docker.com/_/mongo?tab=tags)
+
 ## Server configuration and startup file
 > The server config files can be found [here](https://github.com/matebence/config-repo) and the strartup file is stored in a [Docker compose .yml file](https://github.com/matebence/app-blesk/blob/develop/docker-compose.yml)
+
+    docker-compose up -d
 
 ## CORS
 > CORS policy definition can be found here [gateway-server.yml file](https://github.com/matebence/config-repo/blob/develop/gateway-server-prod.yml) 
@@ -341,7 +355,9 @@ Tracking server for Blesk **microservice** application. [Docs](https://zipkin.io
 - [rabbit-mq](https://hub.docker.com/repository/docker/matebence/app-blesk_rabbit-mq)
 
 # Invoice example
-> Invoice [eb5377322765cde00ebb8986e65430ea.pdf](https://github.com/matebence/app-blesk/blob/develop/examples/eb5377322765cde00ebb8986e65430ea.pdf)
+> Invoice [eb5377322765cde00ebb8986e65430ea.pdf](https://github.com/matebence/shipment-service/blob/develop/eb5377322765cde00ebb8986e65430ea.pdf)
+# Log example
+> Log [proxy-server.log](https://github.com/matebence/landing-bootstrap/blob/develop/log/proxy-server.log)
 # List of email notifications
 > ![Mailhog dashboard](https://github.com/matebence/app-blesk/blob/develop/images/mailhog_dasboard.png)
 # Jenkins dashboard
@@ -358,4 +374,10 @@ Tracking server for Blesk **microservice** application. [Docs](https://zipkin.io
 > ![CI/CD illustration](https://github.com/matebence/app-blesk/blob/develop/images/ci_cd_illustration.png)
 # Application UI screenshoots
 > ## landing-boostrap (home-page)
-> ![Landing bootstrap](https://github.com/matebence/app-blesk/blob/develop/images/landing-bootstrap.gif)
+> ![Landing Bootstrap - Home Page](https://github.com/matebence/app-blesk/blob/develop/images/landing_bootstrap_home_page.png)
+> ## web-vue (auth)
+> ![Web Vue - Auth](https://github.com/matebence/app-blesk/blob/develop/images/web_vue_auth.png)
+> ## web-vue (client-dashboard)
+> ![Web Vue - Client Dashboard](https://github.com/matebence/app-blesk/blob/develop/images/web_vue_client_dashboard.png)
+> ## web-vue (courier-dashboard)
+> ![Web Vue - Courier Dashboard](https://github.com/matebence/app-blesk/blob/develop/images/web_vue_courier_dashboard.png)

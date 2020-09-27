@@ -67,9 +67,11 @@ services:
     environment:
       - PORT=4100
     networks:
+      - back-tier
       - front-tier
+      - proxy-tier
     depends_on:
-      - config-server
+      - gateway-server
     ports:
       - 4100:4100
 
@@ -263,6 +265,18 @@ services:
       - gateway-server
     expose:
       - 5400
+
+  web-vue:
+    build: ./web-vue
+    container_name: web-vue
+    environment:
+      - PORT=4300
+    networks:
+      - front-tier
+    depends_on:
+      - landing-bootstrap
+    expose:
+      - 4300
       
   adminer:
     image: adminer
@@ -288,5 +302,6 @@ services:
       - 8025:8025
 
 networks:
+  proxy-tier:
   front-tier:
   back-tier:
