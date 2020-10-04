@@ -67,7 +67,6 @@ Tracking server for Blesk **microservice** application. [Docs](https://zipkin.io
 [![Build Status](https://travis-ci.org/openzipkin/zipkin.svg?branch=master)](https://travis-ci.org/openzipkin/zipkin) [![GitHub issues](https://img.shields.io/github/issues/matebence/tracking-server)](https://github.com/matebence/tracking-server/issues) [![GitHub forks](https://img.shields.io/github/forks/matebence/tracking-server)](https://github.com/matebence/tracking-server/network) [![GitHub stars](https://img.shields.io/github/stars/matebence/tracking-server)](https://github.com/matebence/tracking-server/stargazers)
 
 # Project is build up on technologies like
-
 - Spring Cloud Config server,
 - Load Balancing with Ribbon, Feign and Resilient
 - Naming Server with Eureka
@@ -229,7 +228,6 @@ Tracking server for Blesk **microservice** application. [Docs](https://zipkin.io
 	-----END RSA PRIVATE KEY-----
 
 ## JSON Web token private key from .pem
-
 > openssl rsa -in jwt.pem 
 
 	----------BEGIN RSA PRIVATE KEY-----
@@ -261,7 +259,6 @@ Tracking server for Blesk **microservice** application. [Docs](https://zipkin.io
 	-----END RSA PRIVATE KEY-----
 
 ## JSON Web token public key from .pem
-
 > openssl rsa -in jwt.pem -pubout
 
 	-----BEGIN PUBLIC KEY-----
@@ -275,7 +272,6 @@ Tracking server for Blesk **microservice** application. [Docs](https://zipkin.io
 	-----END PUBLIC KEY-----
 
 ## Example of JWT token
-
 > It can be tested here [https://jwt.io/](https://jwt.io/)
 
 	eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJhY2NvdW50X
