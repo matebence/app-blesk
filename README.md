@@ -299,7 +299,7 @@ Tracking server for Blesk **microservice** application. [Docs](https://zipkin.io
 - **HERE** API - maps
 > API keys are stored on [Google Drive](https://drive.google.com/file/d/11cycT6jk5CE-6RIjQULGIbjm_MgmUp7w/view?usp=sharing)
 
-## Base Docker images
+## Docker base images
 - [redis:6.0](https://hub.docker.com/_/redis?tab=tags)
 - [nginx:latest](https://hub.docker.com/_/nginx?tab=tags)
 - [openjdk:8](https://hub.docker.com/_/openjdk?tab=tags)
