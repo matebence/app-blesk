@@ -66,6 +66,10 @@ services:
     container_name: landing-bootstrap
     environment:
       - PORT=4100
+      - DEFAULT_SERVER=http://localhost/
+      - MOBILE_SERVER=http://pwa-react:4200/
+      - DESKTOP_SERVER=http://web-vue:4300/
+      - MANAGEMENT_SERVER=http://admin-angular:4400/   
     networks:
       - back-tier
       - front-tier
