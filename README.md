@@ -67,6 +67,7 @@ Tracking server for Blesk **microservice** application. [Docs](https://zipkin.io
 [![Build Status](https://travis-ci.org/openzipkin/zipkin.svg?branch=master)](https://travis-ci.org/openzipkin/zipkin) [![GitHub issues](https://img.shields.io/github/issues/matebence/tracking-server)](https://github.com/matebence/tracking-server/issues) [![GitHub forks](https://img.shields.io/github/forks/matebence/tracking-server)](https://github.com/matebence/tracking-server/network) [![GitHub stars](https://img.shields.io/github/stars/matebence/tracking-server)](https://github.com/matebence/tracking-server/stargazers)
 
 # Project is build up on technologies like
+
 - Spring Cloud Config server,
 - Load Balancing with Ribbon, Feign and Resilient
 - Naming Server with Eureka
@@ -74,6 +75,7 @@ Tracking server for Blesk **microservice** application. [Docs](https://zipkin.io
 - API Gateway with Zuul
 - Distributed Tracking with Zipkin
 - Request identification with Spring Cloud Sleuth
+- CI - Travis, Jenkins
 - Docker, Docker-compose
 - Postman for API testing
 - RabbitMQ - service to service communication
@@ -81,14 +83,13 @@ Tracking server for Blesk **microservice** application. [Docs](https://zipkin.io
 - Databases - MySQL, PostgreSQL, MongoDB, Redis
 - ORM - Hibernate, Sequelize
 - ODM - Mongoose
-- CI - Travis, Jenkins
-- Proxying
-- Git Flow
 - Spring Data, JPA, Criteria API, JPQL
 - RESTful API (REST API), HATEOAS
 - Template engines: EJS, Thymeleaf
-- React, Vue, Angular
-- NodeJs, Java Spring
+- Proxying
+- Web push notifications
+- Frontend - React, Vue, Angular
+- Backend - NodeJs, Java Spring
 
 # Possible future improvements
 - Using Kong or Spring Cloud Gateway as gateway-server (Native websocket support)
@@ -228,6 +229,7 @@ Tracking server for Blesk **microservice** application. [Docs](https://zipkin.io
 	-----END RSA PRIVATE KEY-----
 
 ## JSON Web token private key from .pem
+
 > openssl rsa -in jwt.pem 
 
 	----------BEGIN RSA PRIVATE KEY-----
@@ -259,6 +261,7 @@ Tracking server for Blesk **microservice** application. [Docs](https://zipkin.io
 	-----END RSA PRIVATE KEY-----
 
 ## JSON Web token public key from .pem
+
 > openssl rsa -in jwt.pem -pubout
 
 	-----BEGIN PUBLIC KEY-----
@@ -272,6 +275,7 @@ Tracking server for Blesk **microservice** application. [Docs](https://zipkin.io
 	-----END PUBLIC KEY-----
 
 ## Example of JWT token
+
 > It can be tested here [https://jwt.io/](https://jwt.io/)
 
 	eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJhY2NvdW50X
@@ -370,6 +374,8 @@ Tracking server for Blesk **microservice** application. [Docs](https://zipkin.io
 # CI/CD illustration
 > ![CI/CD illustration](https://github.com/matebence/app-blesk/blob/master/images/ci_cd_illustration.png)
 # Application UI screenshoots
+> ## Email Notifications (structure)
+> ![Email Notifications - structure](https://github.com/matebence/app-blesk/blob/master/images/email_template_structure.png)
 > ## landing-boostrap (home-page)
 > ![Landing Bootstrap - Home Page](https://github.com/matebence/app-blesk/blob/master/images/landing_bootstrap_home_page.png)
 > ## web-vue (auth)
