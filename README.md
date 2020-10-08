@@ -374,7 +374,7 @@ Tracking server for Blesk **microservice** application. [Docs](https://zipkin.io
 # CI/CD illustration
 > ![CI/CD illustration](https://github.com/matebence/app-blesk/blob/master/images/ci_cd_illustration.png)
 # Application UI screenshoots
-> ## Email Notifications (structure)
+> ## email notifications (structure)
 > ![Email Notifications - structure](https://github.com/matebence/app-blesk/blob/master/images/email_template_structure.png)
 > ## landing-boostrap (home-page)
 > ![Landing Bootstrap - Home Page](https://github.com/matebence/app-blesk/blob/master/images/landing_bootstrap_home_page.png)
