@@ -87,6 +87,7 @@ Tracking server for Blesk **microservice** application. [Docs](https://zipkin.io
 - RESTful API (REST API), HATEOAS
 - Template engines: EJS, Thymeleaf
 - Proxying
+- Web push notifications
 - Frontend - React, Vue, Angular
 - Backend - NodeJs, Java Spring
 
@@ -373,6 +374,8 @@ Tracking server for Blesk **microservice** application. [Docs](https://zipkin.io
 # CI/CD illustration
 > ![CI/CD illustration](https://github.com/matebence/app-blesk/blob/develop/images/ci_cd_illustration.png)
 # Application UI screenshoots
+> ## Email Notifications (structure)
+> ![Email Notifications - structure](https://github.com/matebence/app-blesk/blob/develop/images/email_template_structure.png)
 > ## landing-boostrap (home-page)
 > ![Landing Bootstrap - Home Page](https://github.com/matebence/app-blesk/blob/develop/images/landing_bootstrap_home_page.png)
 > ## web-vue (auth)
