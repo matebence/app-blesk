@@ -384,3 +384,7 @@ Tracking server for Blesk **microservice** application. [Docs](https://zipkin.io
 > ![Web Vue - Client Dashboard](https://github.com/matebence/app-blesk/blob/master/images/web_vue_client_dashboard.png)
 > ## web-vue (courier-dashboard)
 > ![Web Vue - Courier Dashboard](https://github.com/matebence/app-blesk/blob/master/images/web_vue_courier_dashboard.png)
+> ## admin-angular (auth)
+> ![Admin Angular - Auth](https://github.com/matebence/app-blesk/blob/master/images/admin_angular_auth.png)
+> ## admin-angular (management-dashboard)
+> ![Admin Angular - Management Dashboard](https://github.com/matebence/app-blesk/blob/master/images/admin_angular_management_dashboard.png)
