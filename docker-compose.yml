@@ -29,8 +29,8 @@ services:
       - front-tier
     depends_on:
       - landing-bootstrap
-    ports:
-      - 4400:4400
+    expose:
+      - 4400
 
   authorization-server:
     build: ./authorization-server
