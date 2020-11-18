@@ -20,6 +20,18 @@ services:
     expose:
       - 7000
 
+  admin-angular:
+    build: ./admin-angular
+    container_name: admin-angular
+    environment:
+      - PORT=4400
+    networks:
+      - front-tier
+    depends_on:
+      - landing-bootstrap
+    expose:
+      - 4400
+
   authorization-server:
     build: ./authorization-server
     container_name: authorization-server
