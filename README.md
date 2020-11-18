@@ -315,7 +315,35 @@ Tracking server for Blesk **microservice** application. [Docs](https://zipkin.io
 ## Server configuration and startup file
 > The server config files can be found [here](https://github.com/matebence/config-repo) and the strartup file is stored in a [Docker compose .yml file](https://github.com/matebence/app-blesk/blob/master/docker-compose.yml)
 
+    docker-compose up
     docker-compose up -d
+    docker-compose up -f file-name
+
+    docker-machine ls
+	docker-machine rm
+	docker-machine start vm
+	docker-machine stop vm
+
+	docker buil -t image-name .
+	docker network create network-name
+	docker run -d -t -i -e ENV=value --network network-name --name container-name -p CPORT:HPORT image:tag
+
+	docker ps -a
+	docker images -a
+	docker network ls
+
+	docker logs -f container-name
+	docker exec -it container-name bash
+
+	docker rmi image-name
+	docker rm container-name
+	docker kill container-name
+	docker network rm network-name
+
+	docker image prune
+	docker volume prune
+	docker network prune
+	docker container prune
 
 ## CORS
 > CORS policy definition can be found here [gateway-server.yml file](https://github.com/matebence/config-repo/blob/master/gateway-server-prod.yml) 
