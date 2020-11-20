@@ -88,6 +88,7 @@ Tracking server for Blesk **microservice** application. [Docs](https://zipkin.io
 - Template engines: EJS, Thymeleaf
 - Proxying
 - Web push notifications
+- Swagger - API Documentation
 - Frontend - React, Vue, Angular
 - Backend - NodeJs, Java Spring
 
@@ -415,7 +416,9 @@ Tracking server for Blesk **microservice** application. [Docs](https://zipkin.io
 # Eureka dashboard
 > ![Eureka dashboard](https://github.com/matebence/app-blesk/blob/master/images/eureka_dashboard.jpg)
 # Microservices network illustration
-> ![Zipkin dashboard](https://github.com/matebence/app-blesk/blob/master/images/zipkin_dashboard.jpg)
+> ![Microservice network](https://github.com/matebence/app-blesk/blob/master/images/microservice_network.jpg)
+# Zipkin request identification
+> ![Zipkin request identification](https://github.com/matebence/app-blesk/blob/master/images/zipkin_request_identification.jpg)
 # Caching strategy illustration
 > ![Caching strategy](https://github.com/matebence/app-blesk/blob/master/images/redis_cache_strategy.png)
 # Proxy illustration
