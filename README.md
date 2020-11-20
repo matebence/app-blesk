@@ -88,6 +88,7 @@ Tracking server for Blesk **microservice** application. [Docs](https://zipkin.io
 - Template engines: EJS, Thymeleaf
 - Proxying
 - Web push notifications
+- Swagger - API Documentation
 - Frontend - React, Vue, Angular
 - Backend - NodeJs, Java Spring
 
@@ -315,6 +316,11 @@ Tracking server for Blesk **microservice** application. [Docs](https://zipkin.io
 ## Server configuration and startup file
 > The server config files can be found [here](https://github.com/matebence/config-repo) and the strartup file is stored in a [Docker compose .yml file](https://github.com/matebence/app-blesk/blob/develop/docker-compose.yml)
 
+    docker-compose up -d -f docker-compose.yml
+
+## Script snippets
+> Docker
+
     docker-compose up
     docker-compose up -d
     docker-compose up -f file-name
@@ -344,6 +350,22 @@ Tracking server for Blesk **microservice** application. [Docs](https://zipkin.io
 	docker volume prune
 	docker network prune
 	docker container prune
+
+> Angular
+	
+	ng build
+	ng build --base-href=/manage
+	ng ng serve
+	ng ng serve --port 4100
+
+	ng g c component-name
+	ng g s service-name
+	ng g d directive-name
+
+> Vue
+	
+	npm run dev
+	npm run build
 
 ## CORS
 > CORS policy definition can be found here [gateway-server.yml file](https://github.com/matebence/config-repo/blob/develop/gateway-server-prod.yml) 
@@ -394,7 +416,9 @@ Tracking server for Blesk **microservice** application. [Docs](https://zipkin.io
 # Eureka dashboard
 > ![Eureka dashboard](https://github.com/matebence/app-blesk/blob/develop/images/eureka_dashboard.jpg)
 # Microservices network illustration
-> ![Zipkin dashboard](https://github.com/matebence/app-blesk/blob/develop/images/zipkin_dashboard.jpg)
+> ![Microservice network](https://github.com/matebence/app-blesk/blob/develop/images/microservice_network.jpg)
+# Zipkin request identification
+> ![Zipkin request identification](https://github.com/matebence/app-blesk/blob/develop/images/zipkin_request_identification.jpg)
 # Caching strategy illustration
 > ![Caching strategy](https://github.com/matebence/app-blesk/blob/develop/images/redis_cache_strategy.png)
 # Proxy illustration
