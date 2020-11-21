@@ -355,8 +355,8 @@ Tracking server for Blesk **microservice** application. [Docs](https://zipkin.io
 	
 	ng build
 	ng build --base-href=/manage
-	ng ng serve
-	ng ng serve --port 4100
+	ng serve
+	ng serve --port 4100
 
 	ng g c component-name
 	ng g s service-name
